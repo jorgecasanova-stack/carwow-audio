@@ -1,0 +1,189 @@
+{
+  "app": "Carwow Audio",
+  "voices": {
+    "alvaro": {
+      "label": "Álvaro",
+      "desc": "Grave y envolvente"
+    },
+    "elvira": {
+      "label": "Elvira",
+      "desc": "Natural y cercana"
+    },
+    "ximena": {
+      "label": "Ximena",
+      "desc": "Clara y juvenil"
+    }
+  },
+  "categorias": {
+    "pruebas": "Pruebas de coches",
+    "noticias": "Noticias y novedades",
+    "videos": "Vídeos de YouTube"
+  },
+  "baseUrl": "",
+  "episodes": [
+    {
+      "id": "prueba-toyota-corolla",
+      "name": "Toyota Corolla",
+      "title": "El coche que no enamora, pero nunca te deja tirado",
+      "categoria": "pruebas",
+      "tags": [
+        "Toyota",
+        "Híbrido",
+        "Compacto"
+      ],
+      "source": "https://www.carwow.es/toyota/corolla",
+      "fecha": "",
+      "order": 1,
+      "duration": 249,
+      "image": "images/prueba-toyota-corolla.jpg",
+      "audio": {
+        "alvaro": "audio/prueba-toyota-corolla_alvaro.mp3"
+      },
+      "script": "Te voy a hablar del coche más vendido de la historia. No de uno de los más vendidos… del más vendido. Más de cincuenta millones de unidades desde mil novecientos sesenta y seis. Y aquí viene lo curioso: es un coche del que casi nadie habla con pasión. Nadie cuelga un póster del Toyota Corolla en su habitación. Y sin embargo, ahí está, arrasando década tras década. ¿Cómo se explica eso? Quédate, porque la respuesta dice mucho de lo que de verdad buscamos en un coche.\n\nEl Corolla del que te hablo es la versión compacta, de cinco puertas, en su última actualización. Y la mejor forma de describirlo es esta: es el amigo en el que siempre puedes confiar. No es el más divertido de la pandilla, no es el que cuenta los mejores chistes. Pero es el que aparece cuando lo necesitas, el que nunca te falla, el que nunca te da un disgusto. En carwow le hemos puesto un ocho sobre diez. Y te explico por qué se lo ha ganado.\n\nLo primero, y lo más importante para tu bolsillo: el consumo. Este coche es híbrido, y en ciudad puede bajar de cuatro litros y medio a los cien kilómetros. Eso, con los precios de la gasolina hoy, es dinero real que se queda en tu cuenta cada mes. El motor eléctrico hace gran parte del trabajo en ciudad, de forma silenciosa, suave, sin que tengas que enchufar nada. Tú conduces, y el coche se encarga del resto.\n\nY conducirlo es… tranquilo. En el buen sentido. La suspensión está bien resuelta, se traga bien los baches, y el conjunto transmite una sensación de calma que se agradece muchísimo en el día a día. Llegas a casa menos cansado. Suena a poco, pero pruébalo una semana y luego me cuentas.\n\nAhora, seamos honestos, porque no te voy a vender humo. El Corolla tiene cosas que no me gustan. La primera, el sistema multimedia. La pantalla sigue siendo lenta, va con un punto de retraso que en pleno dos mil veintiséis no debería pasar. Menos mal que tienes Apple CarPlay y Android Auto para tirar del móvil y olvidarte de él. La segunda pega: el maletero. Apenas trescientos litros. Para un coche de este tamaño, se queda corto. Dos maletas y poco más. Y atrás, si vas a llevar adultos altos en los asientos traseros de forma habitual, van a ir algo justos de espacio.\n\nHay dos versiones híbridas. La de ciento cuarenta caballos, perfecta para ciudad y carretera tranquila, aunque en autopista, cuando le pides un adelantamiento largo, notas que le falta un punto de fuelle. Y la de casi doscientos caballos, que va sobrada, hace el cero a cien en siete segundos y medio, y es la que yo elegiría si haces muchos kilómetros de viaje. Las dos son híbridas no enchufables: ojo con esto, porque aquí no hay que enchufar nada, pero tampoco esperes hacer kilómetros en modo cien por cien eléctrico.\n\nY el precio. El oficial arranca sobre los treinta y dos mil euros y sube hasta casi treinta y ocho mil en los acabados más equipados. Pero el dato interesante es este: a través de carwow, el ahorro medio ronda los siete mil euros. Siete mil. Eso convierte un coche que parecía caro en una compra mucho más sensata.\n\nEntonces, ¿para quién es el Corolla? Te lo digo claro. Si buscas emociones fuertes, si quieres un coche que te haga sonreír cada vez que pisas el acelerador, este no es tu coche, y no pasa nada. Pero si lo que quieres es gastar poco en gasolina, no pisar el taller en años, y olvidarte de problemas… entonces el Corolla es de los mejores compradores de tranquilidad que existen. No te va a enamorar. Pero diez años después, seguirá arrancando a la primera cada mañana fría de invierno. Y créeme: eso, con el tiempo, vale más que cualquier flechazo."
+    },
+    {
+      "id": "prueba-dacia-sandero",
+      "name": "Dacia Sandero",
+      "title": "El coche que demuestra que no necesitas gastar más",
+      "categoria": "pruebas",
+      "tags": [
+        "Dacia",
+        "Asequible",
+        "Urbano",
+        "GLP"
+      ],
+      "source": "https://www.carwow.es/dacia/sandero",
+      "fecha": "",
+      "order": 2,
+      "duration": 224,
+      "image": "images/prueba-dacia-sandero.jpg",
+      "audio": {
+        "alvaro": "audio/prueba-dacia-sandero_alvaro.mp3"
+      },
+      "script": "Quiero que pienses un momento en cuánto cuesta hoy un coche nuevo. Treinta mil, cuarenta mil euros… cifras que dan vértigo. Y ahora deja que te presente al coche que se ha plantado en mitad de esa locura y ha dicho: \"un momento, ¿y si no hace falta?\". Se llama Dacia Sandero, y arranca en trece mil cuatrocientos noventa euros. Trece mil. Es, año tras año, el coche más vendido a particulares en España. Y no es por casualidad. Déjame contarte su secreto.\n\nEl secreto del Sandero es que ha entendido algo que muchas marcas premium han olvidado: la diferencia entre lo que necesitas y lo que te quieren vender. ¿Necesitas un volante con calefacción y treinta luces de ambiente? No. Necesitas un coche bien construido, que arranque, que sea cómodo y que no te arruine. Y eso es exactamente lo que te da. En carwow le hemos puesto un ocho sobre diez, y no por barato: por sensato.\n\nPorque aquí está lo que sorprende a todo el mundo cuando se sube. Esto ya no es el Dacia de hace quince años, ese coche de plástico triste que comprabas tapándote la cara. El Sandero actual está bien hecho. Los materiales han dado un salto enorme, los ajustes son buenos, tienes pantalla de diez pulgadas con Apple CarPlay y Android Auto inalámbricos, cargador para el móvil… cosas que hace nada eran un lujo. Y va cómodo de verdad: la suspensión filtra bien el mal asfalto, y en ciudad es facilísimo de manejar.\n\nY ahora viene mi parte favorita, el truco de magia. La versión Eco-G, la bifuel de gas licuado. Lleva dos depósitos, gasolina y GLP, y vas cambiando entre uno y otro con un botón. ¿Por qué importa esto? Porque el gas cuesta casi la mitad que la gasolina, y porque te da una autonomía total de hasta mil quinientos noventa kilómetros. Mil quinientos noventa. Eso es salir de Madrid y llegar casi a la otra punta de Europa sin pisar una gasolinera. Para quien hace muchos kilómetros, esto es un ahorro brutal cada mes.\n\nPero te prometí honestidad, así que vamos con lo que no me convence. El Sandero no se electrifica: aquí no hay híbrido, solo gasolina y gas. La dirección es muy ligera, le falta tacto, no esperes sensaciones deportivas porque no las hay. Y a velocidades altas en autopista, el aislamiento del ruido se nota mejorable: entra algo de runrún. Son las concesiones que haces a cambio del precio. Y sinceramente, a mí me parecen concesiones muy razonables.\n\nEl maletero, trescientos veintiocho litros, está bien para el segmento, te entran dos maletas sin problema. Y los motores van desde el básico de sesenta y cinco caballos, que se queda algo corto, hasta el Eco-G de ciento veinte, que es el que yo te recomiendo: tiene fuelle suficiente, etiqueta ECO, y ese ahorro del gas.\n\nAsí que déjame cerrar con una idea. Vivimos en una época en la que parece que comprar barato es renunciar a algo, casi como reconocer que no puedes pagar más. El Sandero le da la vuelta a eso. Comprar un Sandero no es conformarse. Es ser lo bastante listo como para no pagar por cosas que no necesitas. Es el coche de la gente que prefiere tener el dinero en su cuenta y no en la del concesionario. Y oye, mírale al resto en el atasco, todos pagando letras enormes… y tú, ahí, tan tranquilo. A veces el más inteligente de la carretera es el que menos pagó."
+    },
+    {
+      "id": "prueba-hyundai-tucson",
+      "name": "Hyundai Tucson",
+      "title": "El SUV que lo hace casi todo bien (y por eso arrasa)",
+      "categoria": "pruebas",
+      "tags": [
+        "Hyundai",
+        "SUV",
+        "Híbrido",
+        "Familiar"
+      ],
+      "source": "https://www.carwow.es/hyundai/tucson",
+      "fecha": "",
+      "order": 3,
+      "duration": 227,
+      "image": "images/prueba-hyundai-tucson.jpg",
+      "audio": {
+        "alvaro": "audio/prueba-hyundai-tucson_alvaro.mp3"
+      },
+      "script": "Hay coches que enamoran por un detalle. Un motor brutal, un diseño espectacular, un nombre con historia. Y luego hay coches que no destacan en nada concreto… porque destacan en todo a la vez. El Hyundai Tucson es de estos segundos. Y déjame decirte una cosa: en el mundo real, en el de las familias de verdad, los coches así son los que de verdad ganan. Te cuento por qué.\n\nEl Tucson es un SUV mediano, de esos que ves por todas partes, y hay una razón muy poderosa para eso. Cuando te subes y empiezas a sumar lo que ofrece por lo que cuesta, la cuenta sale demasiado bien. En carwow le hemos dado un ocho sobre diez, y la palabra que mejor lo define es equilibrio. No hace nada de forma espectacular, pero tampoco falla en nada importante. Y eso, en un coche para toda la familia, es justo lo que quieres.\n\nEmpecemos por el espacio, que es para lo que compras un SUV. El maletero va de quinientos cuarenta y seis a seiscientos veinte litros según versión. Eso son las maletas de las vacaciones, el carrito del bebé, la compra grande y el perro, todo a la vez. Y atrás se viaja de lujo, con sitio de sobra para las piernas. Es un coche pensado para usarlo, no para mirarlo.\n\nY luego está la jugada maestra de Hyundai: la gama de motores. Aquí lo tienes todo. Gasolina, diésel, híbrido, e híbrido enchufable. ¿Que haces poco kilómetro y quieres etiqueta CERO y cargar en casa? El enchufable de doscientos ochenta y ocho caballos, con tracción total. ¿Que quieres el punto dulce, sin complicarte? El híbrido de doscientos treinta y nueve caballos: suave, con empuje, con consumos sobre seis litros y sin que tengas que enchufar nada. Hay un Tucson para cada tipo de conductor, y eso es rarísimo de encontrar.\n\nPero no todo es perfecto, y te lo cuento porque para eso estoy. La suspensión es un pelín firme: en asfalto malo, en esos parches y baches de ciudad, la notas algo seca. Los asistentes a la conducción son un poco pesados, con avisos sonoros que a algunos les sacan de quicio, aunque se pueden ajustar. Y el consumo del híbrido, siendo correcto, no es el más bajo de su categoría: hay rivales que aprietan algo más. Son detalles, no defectos graves, pero los tienes que saber antes de firmar.\n\nPor dentro, dos pantallas de doce pulgadas y pico que le dan un aire moderno y tecnológico, y algo que yo aplaudo: mandos físicos para el climatizador. Botones de verdad para la temperatura, que no tienes que bucear en un menú mientras conduces. Parece una tontería, pero es seguridad y es sentido común.\n\nY el precio. El oficial va de treinta y cinco mil a casi cincuenta y siete mil euros en lo más alto de gama. Pero ojo al dato carwow: el ahorro medio ronda los seis mil setecientos euros. Eso pone el Tucson, de golpe, en el carril de las compras muy inteligentes.\n\nAsí que cierro con esto. Cuando buscas coche familiar, es fácil dejarse llevar por el que más mola, el que más rabia te da en el escaparate. Pero un coche de familia tiene que cumplir todos los días, durante años, en mil situaciones distintas. Y el Tucson es justo eso: el coche que nunca te va a dejar pensando \"ojalá hubiera elegido otra cosa\". No es el más llamativo de la calle. Es, simplemente, el que casi nunca te vas a arrepentir de haber comprado. Y a veces, esa es la mejor cualidad que puede tener un coche."
+    },
+    {
+      "id": "prueba-nissan-qashqai",
+      "name": "Nissan Qashqai",
+      "title": "El que inventó la categoría y todavía da lecciones",
+      "categoria": "pruebas",
+      "tags": [
+        "Nissan",
+        "SUV",
+        "e-Power",
+        "Familiar"
+      ],
+      "source": "https://www.carwow.es/nissan/qashqai",
+      "fecha": "",
+      "order": 4,
+      "duration": 226,
+      "image": "images/prueba-nissan-qashqai.jpg",
+      "audio": {
+        "alvaro": "audio/prueba-nissan-qashqai_alvaro.mp3"
+      },
+      "script": "Antes del Nissan Qashqai, los SUV compactos prácticamente no existían tal y como los conoces hoy. Fue este coche, allá por dos mil siete, el que abrió la veda, el que convenció a millones de personas de que podían tener la altura y la presencia de un todoterreno sin la incomodidad ni el gasto de uno. Inventó una categoría entera. Y lo fascinante es que, casi veinte años después, sigue siendo de los mejores. Eso no es suerte. Eso es oficio.\n\nDe toda esta prueba, esta es la que más nota se lleva: en carwow le hemos puesto un nueve sobre diez. Y cuando ves un nueve, tienes que preguntarte qué hace este coche para merecerlo. Pues te lo resumo: es un coche tremendamente bien hecho. Te subes, cierras la puerta, y todo suena y se siente con esa solidez que solo tienen los coches cuidados de verdad. Los materiales están por encima de la media, los ajustes son finos, y desde el acabado más básico ya vienes servido: climatizador de dos zonas, acceso sin llave, faros LED. No te obligan a subir de versión para tener lo esencial.\n\nPero la joya de la corona es su motor e-Power. Y este sistema merece que te lo explique bien, porque es distinto a todo. El Qashqai e-Power tiene un motor de gasolina… que nunca mueve las ruedas. Lo único que hace ese motor de gasolina es generar electricidad, y son los motores eléctricos los que mueven el coche. ¿Resultado? Conduces como en un coche eléctrico, con esa respuesta instantánea y suave, ese silencio… pero sin tener que enchufar nada, nunca. Es de los híbridos mejor resueltos que puedes comprar hoy, y va con etiqueta ECO.\n\nHay un detalle que me encanta, de esos que solo aprecias cuando tienes familia: las puertas se abren ochenta y cinco grados. Casi en ángulo recto. ¿Y eso para qué? Para meter y sacar la sillita del niño sin hacer contorsionismo, para que tu padre con la cadera regular entre y salga con dignidad. Es de esos detalles que no salen en el anuncio, pero que agradeces cada día.\n\nAhora, lo justo es contarte también lo que no brilla tanto. La gama de motores es algo limitada, hay pocas diferencias entre las opciones, así que no esperes un abanico enorme donde elegir. El maletero, entre cuatrocientos cincuenta y cinco y quinientos litros, cumple, pero no es de los que te dejan con la boca abierta. Y el diseño interior, siendo de calidad, es más bien funcional, sobrio: si buscabas algo vanguardista que impresione a las visitas, este no va por ahí. El Qashqai es elegante, no es exhibicionista.\n\nLos precios oficiales arrancan sobre los treinta y tres mil euros y llegan a casi cuarenta y ocho mil. Y otra vez el dato que importa: a través de carwow, el ahorro medio ronda los seis mil novecientos euros. Casi siete mil euros que te ahorras sobre el precio de tarifa.\n\nTe dejo con una reflexión. Es muy fácil que un coche brille el primer año, cuando es novedad y todo el mundo lo mira. Lo difícil, lo verdaderamente difícil, es seguir siendo una referencia casi veinte años después, generación tras generación, mientras decenas de rivales han nacido y desaparecido por el camino. El Qashqai lo ha conseguido. Y lo ha conseguido sin gritar, sin estridencias, simplemente haciendo las cosas bien una y otra vez. Hay coches que están de moda. Y luego hay coches que, sencillamente, funcionan. El Qashqai es de los segundos. Y por eso sigue ahí arriba."
+    },
+    {
+      "id": "prueba-toyota-rav4",
+      "name": "Toyota RAV4",
+      "title": "El padre de todos los SUV se reinventa (con sus luces y sus sombras)",
+      "categoria": "pruebas",
+      "tags": [
+        "Toyota",
+        "SUV",
+        "Híbrido enchufable",
+        "4x4"
+      ],
+      "source": "https://www.carwow.es/toyota/rav4",
+      "fecha": "",
+      "order": 5,
+      "duration": 232,
+      "image": "images/prueba-toyota-rav4.jpg",
+      "audio": {
+        "alvaro": "audio/prueba-toyota-rav4_alvaro.mp3"
+      },
+      "script": "Hay un coche al que deberíamos darle las gracias por casi todo lo que ves hoy en la carretera. El Toyota RAV4 fue, hace ya treinta años, uno de los primeros en decir: \"¿y si hacemos un todoterreno cómodo, fácil de conducir, que sirva para el día a día de una familia normal?\". De aquella idea nació prácticamente todo el mundo SUV en el que vivimos ahora. Y aquí está su sexta generación, completamente renovada, intentando demostrar que el maestro todavía tiene cosas que enseñar. ¿Lo consigue? En parte sí, en parte… te lo voy a contar sin filtros.\n\nEn carwow le hemos puesto un ocho sobre diez, y los usuarios que ya lo tienen lo puntúan altísimo, un cuatro coma cuatro sobre cinco con más de seis mil opiniones. Así que algo muy bien hace. Empecemos por ahí, por lo bueno, que es mucho.\n\nEl RAV4 es, ante todo, un coche que transmite solidez. Te subes y sientes que esto está hecho para durar, para aguantar, para no quejarse. El interior es amplio y está muy bien organizado, con una disposición clara y, atención, con mandos físicos grandes que usas sin mirar. En una época en la que todos esconden los botones dentro de pantallas táctiles, que Toyota mantenga controles de verdad es casi un acto de rebeldía que yo aplaudo. Atrás se viaja estupendamente, con espacio de sobra y buena postura, y el maletero, con quinientos catorce litros en el híbrido, se traga lo que le eches.\n\nEn motores, Toyota juega en casa, porque de híbridos saben más que nadie. Tienes el híbrido normal de ciento ochenta y tres caballos, que gasta menos de cinco litros, una barbaridad para el tamaño que tiene. Y luego los enchufables, que es donde se pone serio: hasta trescientos cuatro caballos, tracción total, cero a cien en cinco coma ocho segundos, y cien kilómetros de autonomía solo en eléctrico. Cien kilómetros. Eso significa que, si cargas en casa, durante toda la semana puedes moverte sin gastar una gota de gasolina, y guardar el depósito entero para el viaje del fin de semana. Lo mejor de los dos mundos.\n\nPero ahora tengo que ponerme serio, porque este coche tiene un \"pero\" importante, y no te lo voy a esconder. El RAV4 supera con facilidad los cincuenta mil euros. Y para ese precio, la calidad percibida de algunos materiales se queda por debajo de lo que esperarías. Hay plásticos que, cuando estás pagando lo que pagas, te hacen arquear la ceja. No es que esté mal hecho, ojo, es robusto: es que por ese dinero esperas un punto más de mimo, más sensación premium. Y hay detalles que chirrían, como un cargador inalámbrico de móvil sin ventilación, que calienta el teléfono una barbaridad, o un equipamiento de confort en las plazas traseras que se queda algo corto para un coche de su categoría y precio.\n\nAsí que aquí va mi veredicto honesto. El Toyota RAV4 es un coche excelente en lo que de verdad importa para durar veinte años: fiabilidad, espacio, mecánica híbrida insuperable, robustez a prueba de bombas. Si vas a tenerlo muchos años y vas a hacer muchos kilómetros, es una de las decisiones más sensatas que puedes tomar, y el enchufable es una pequeña maravilla de eficiencia. Lo que tienes que tener clarísimo es que no estás comprando lujo, estás comprando tranquilidad de la buena. Si entras con esa idea en la cabeza, no te va a decepcionar jamás. Si entras esperando que cada plástico te susurre que has gastado cincuenta mil euros… ahí puede que te lleves un pequeño chasco. Tú decides qué tipo de comprador eres. Y eso, en realidad, es lo único que importa."
+    },
+    {
+      "id": "noticia-7550",
+      "name": "SUV premium con 5.400 euros de descuento",
+      "title": "Última oportunidad antes de que suba el precio oficial",
+      "categoria": "noticias",
+      "tags": [
+        "SUV",
+        "Descuentos",
+        "Premium"
+      ],
+      "source": "https://www.carwow.es/mazda/cx-5/noticias/7550/oferta-suv-familiar-premium-descuento-junio",
+      "fecha": "2026-06-05",
+      "order": 7550,
+      "duration": 106,
+      "image": "images/noticia-7550.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7550_alvaro.mp3"
+      },
+      "script": "¿Buscas un SUV familiar premium y grande con un descuento brutal? Pues atento, porque se acaba el tiempo. Hay un modelo en el mercado que ahora mismo puedes conseguir con más de cinco mil cuatrocientos euros de rebaja, pero solo durante unos días más. Y ojo, que no es una oferta cualquiera: es el último respiro antes de que su precio oficial suba.\n\nHablamos de ese tipo de coche que muchas familias tienen en la lista de deseos. Espacio para todos, acabados de calidad, tecnología de sobra y esa sensación de que no has tenido que renunciar a nada. El problema es que estos coches suelen costar un riñón. Pero ahora, con este descuento, la ecuación cambia bastante.\n\n¿Por qué se acaba la fiesta? Pues porque el fabricante va a ajustar precios al alza en los próximos días. Es algo que está pasando en toda la industria: nuevas normativas, subidas de costes, inflación… lo de siempre. Así que si estabas pensando en dar el paso, este es tu momento.\n\nEl descuento no es de esos simbólicos de trescientos euros. Son más de cinco mil cuatrocientos. Eso son vacaciones, son extras que no esperabas poder permitirte, o simplemente es pagar menos por lo mismo. Y en un coche de este nivel, donde cada euro cuenta, la diferencia se nota.\n\n¿Merece la pena? Si necesitas un SUV familiar espacioso, con cierto estatus y sin renunciar a equipamiento, yo diría que sí. Pero date prisa, porque en cuanto suban los precios oficiales, esta oportunidad se evapora. Y luego nos acordamos todos cuando volvemos a mirar la etiqueta y pensamos: \"¿Por qué no lo compré entonces?\"."
+    },
+    {
+      "id": "noticia-7552",
+      "name": "Coche ECO de cero emisiones por menos de 28.000 €",
+      "title": "Etiqueta ECO, emisiones cero y asientos ingeniosos que se deslizan para ganar maletero",
+      "categoria": "noticias",
+      "tags": [
+        "Híbrido",
+        "Etiqueta ECO",
+        "Ofertas"
+      ],
+      "source": "https://www.carwow.es/ford/kuga/noticias/7552/oferta-ford-suv--27989-euros-carwow",
+      "fecha": "2026-06-05",
+      "order": 7552,
+      "duration": 110,
+      "image": "images/noticia-7552.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7552_alvaro.mp3"
+      },
+      "script": "Espera, espera. ¿Un coche con etiqueta ECO y cero emisiones? Sí, has oído bien. Y ahora lo tienes por menos de veintiocho mil euros. Déjame que te explique por qué esto tiene sentido y por qué puede interesarte.\n\nHablamos de un modelo que consigue la etiqueta ECO de la DGT, esa que te deja aparcar gratis en muchas ciudades y circular sin restricciones cuando hay protocolo anticontaminación. Pero lo realmente curioso es que declara cero emisiones. ¿Cómo? Seguramente estemos ante un híbrido enchufable con autonomía eléctrica suficiente para que en ciudad y trayectos cortos no quemes ni una gota de gasolina. En la práctica, en homologación puede marcar cero, aunque luego tú decidas si enchufarlo o no.\n\nPero hay más. Este coche trae algo que no se ve todos los días: asientos que se deslizan hacia delante para ganar maletero. Imagina que llevas la compra grande del mes, maletas o algo voluminoso. Mueves los asientos, ganas centímetros y listo. Es una de esas ideas simples que en el día a día marcan la diferencia.\n\nY ahora viene la noticia: su precio ha bajado. Estamos hablando de menos de veintiocho mil euros. En un mercado donde los híbridos enchufables suelen arrancar bastante por encima, esto lo convierte en una opción a tener muy en cuenta si buscas eficiencia, etiqueta y espacio sin dejarte un riñón.\n\n¿Que cuál es? La noticia no da el nombre, pero por características y precio apunta a modelos como el MG HS o el BYD Seal U. Echa un vistazo, compara y haz números. Porque por menos de veintiocho mil, con cero emisiones en ciudad y etiqueta ECO, empieza a ser difícil decir que no."
+    },
+    {
+      "id": "noticia-7553",
+      "name": "Vuelven los 4x4 puros: Santana, Terrano, Galloper",
+      "title": "Los todoterreno de verdad resucitan cuando parecían olvidados",
+      "categoria": "noticias",
+      "tags": [
+        "4x4",
+        "Todoterreno",
+        "Galloper"
+      ],
+      "source": "https://www.carwow.es/noticias/7553/galloper-vuelve-espana-2026-modelos-precio",
+      "fecha": "2026-06-05",
+      "order": 7553,
+      "duration": 106,
+      "image": "images/noticia-7553.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7553_alvaro.mp3"
+      },
+      "script": "¿Te acuerdas del Santana? ¿Del Nissan Terrano de los noventa? Pues agárrate, porque ahora vuelve el Galloper. Sí, ese todoterreno coreano que en España vendía Hyundai y que desapareció hace más de veinte años. Y no vuelve solo: hay toda una oleada de cuatro por cuatro puros, de los de verdad, los de chasis de escalera y reductora, que están resucitando cuando parecían muertos y enterrados.\n\nEl Galloper original era básicamente un Mitsubishi Pajero rebautizado. Duro, simple, capaz en campo. Dejó de venderse en dos mil tres porque no tenía sentido competir con el Terracan, que era más moderno. Pero ahora su nombre reaparece, y no es un caso aislado. El Suzuki Santana, fabricado en Linares hasta dos mil quince, también ha vuelto como marca propia. Y Nissan acaba de confirmar que el Terrano regresa, aunque de momento solo para algunos mercados.\n\n¿Por qué ahora? Porque hay hambre de autenticidad. Los SUV modernos son cómodos, tecnológicos, eficientes... pero en el barro de verdad muchos no pasan de un golf descapotable. Y hay gente que quiere algo que sí funcione fuera del asfalto, sin pantallas gigantes ni modo eco. Quieren hierro, fiabilidad mecánica y que arranque aunque lo dejes tres meses parado.\n\nClaro, estos bichos no cumplen con las emisiones europeas actuales ni de broma. Por eso muchos apuntan a mercados emergentes o a nichos muy concretos. Pero el mensaje es claro: el cuatro por cuatro de los de antes no estaba tan muerto como creíamos. Y en un mundo de crossovers idénticos, volver a ver un Galloper en la calle puede que hasta emocione."
+    }
+  ]
+}

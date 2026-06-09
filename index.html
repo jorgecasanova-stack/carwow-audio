@@ -160,12 +160,12 @@ const esc = (t)=>(t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 function catEpisodes(k){
   const list = M.episodes.filter(e=>catOf(e)===k);
   // noticias: por fecha desc; resto: por order asc
-  if(k==='noticias') return list.sort((a,b)=>(b.fecha||'').localeCompare(a.fecha||'')||a.order-b.order);
+  if(k==='noticias'||k==='videos') return list.sort((a,b)=>(b.fecha||'').localeCompare(a.fecha||'')||(''+b.order).localeCompare(''+a.order));
   return list.sort((a,b)=>a.order-b.order);
 }
 // Línea de meta de cada episodio (lo que en JUIS era "era")
 function metaLine(e){
-  if(catOf(e)==='noticias' && e.fecha) return e.fecha.split('-').reverse().join('/');
+  if((catOf(e)==='noticias'||catOf(e)==='videos') && e.fecha) return e.fecha.split('-').reverse().join('/');
   if(e.tags && e.tags.length) return e.tags.slice(0,2).join(' · ');
   return catMeta(catOf(e)).name;
 }

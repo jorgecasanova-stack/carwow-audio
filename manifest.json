@@ -32,6 +32,7 @@
         "Compacto"
       ],
       "source": "https://www.carwow.es/toyota/corolla",
+      "youtube": "",
       "fecha": "",
       "order": 1,
       "duration": 249,
@@ -53,6 +54,7 @@
         "GLP"
       ],
       "source": "https://www.carwow.es/dacia/sandero",
+      "youtube": "",
       "fecha": "",
       "order": 2,
       "duration": 224,
@@ -74,6 +76,7 @@
         "Familiar"
       ],
       "source": "https://www.carwow.es/hyundai/tucson",
+      "youtube": "",
       "fecha": "",
       "order": 3,
       "duration": 227,
@@ -95,6 +98,7 @@
         "Familiar"
       ],
       "source": "https://www.carwow.es/nissan/qashqai",
+      "youtube": "",
       "fecha": "",
       "order": 4,
       "duration": 226,
@@ -116,6 +120,7 @@
         "4x4"
       ],
       "source": "https://www.carwow.es/toyota/rav4",
+      "youtube": "",
       "fecha": "",
       "order": 5,
       "duration": 232,
@@ -136,6 +141,7 @@
         "Deportivo"
       ],
       "source": "https://www.carwow.es/mercedes/noticias/7465/mercedes-amg-gt-4-puertas-coupe-electrico-mas-rapido",
+      "youtube": "",
       "fecha": "2026-06-09",
       "order": 7465,
       "duration": 126,
@@ -156,6 +162,7 @@
         "Curiosidades"
       ],
       "source": "https://www.carwow.es/noticias/7560/papamovil-historia-los-modelos-leon-xiv",
+      "youtube": "",
       "fecha": "2026-06-09",
       "order": 7560,
       "duration": 112,
@@ -176,6 +183,7 @@
         "Deportivos"
       ],
       "source": "https://www.carwow.es/noticias/7561/por-que-volkswagen-golf-gti-ha-perdido-su-esencia-opinion-mario-garces",
+      "youtube": "",
       "fecha": "2026-06-09",
       "order": 7561,
       "duration": 121,
@@ -196,6 +204,7 @@
         "Japón"
       ],
       "source": "https://www.carwow.es/toyota/yaris-cross/noticias/7564/oferta-suv-hibrido-26511-euros",
+      "youtube": "",
       "fecha": "2026-06-09",
       "order": 7564,
       "duration": 109,
@@ -216,6 +225,7 @@
         "SUV"
       ],
       "source": "https://www.carwow.es/kai/niro/noticias/7565/nuevo-kia-niro-2026-hibrido-precio-lanzamiento-medidas",
+      "youtube": "",
       "fecha": "2026-06-09",
       "order": 7565,
       "duration": 126,
@@ -236,6 +246,7 @@
         "Industria"
       ],
       "source": "https://www.carwow.es/toyota/noticias/7566/toyota-akio-toyoda-miedo-coches-electricos",
+      "youtube": "",
       "fecha": "2026-06-09",
       "order": 7566,
       "duration": 110,
@@ -256,6 +267,7 @@
         "Diseño"
       ],
       "source": "https://www.carwow.es/fiat/noticias/7554/historia-fiat-multipla-coche-mas-feo",
+      "youtube": "",
       "fecha": "2026-06-07",
       "order": 7554,
       "duration": 108,
@@ -277,6 +289,7 @@
         "Ofertas"
       ],
       "source": "https://www.carwow.es/volkswagen/t-roc/noticias/7557/oferta-2026-suv-compacto-30576-euros",
+      "youtube": "",
       "fecha": "2026-06-07",
       "order": 7557,
       "duration": 106,
@@ -297,6 +310,7 @@
         "Premium"
       ],
       "source": "https://www.carwow.es/mazda/cx-5/noticias/7550/oferta-suv-familiar-premium-descuento-junio",
+      "youtube": "",
       "fecha": "2026-06-05",
       "order": 7550,
       "duration": 106,
@@ -317,6 +331,7 @@
         "Ofertas"
       ],
       "source": "https://www.carwow.es/ford/kuga/noticias/7552/oferta-ford-suv--27989-euros-carwow",
+      "youtube": "",
       "fecha": "2026-06-05",
       "order": 7552,
       "duration": 110,
@@ -337,6 +352,7 @@
         "Galloper"
       ],
       "source": "https://www.carwow.es/noticias/7553/galloper-vuelve-espana-2026-modelos-precio",
+      "youtube": "",
       "fecha": "2026-06-05",
       "order": 7553,
       "duration": 106,
@@ -348,125 +364,207 @@
     },
     {
       "id": "video-bV8JvhwBFcA",
-      "name": "Vuelve Galloper: suena raro, muy raro",
-      "title": "La marca resurge con chinos, pero nadie confirma nada",
+      "name": "¡VUELVE LA MARCA GALLOPER! AHORA CON LOS CHINOS (PINTA REGULAR)",
+      "title": "",
       "categoria": "videos",
       "tags": [
-        "Galloper",
-        "Marcas",
         "Short"
       ],
       "source": "https://www.youtube.com/watch?v=bV8JvhwBFcA",
+      "youtube": "bV8JvhwBFcA",
       "fecha": "2026-06-09",
       "order": 20260609,
-      "duration": 66,
+      "duration": 85,
       "image": "images/video-bV8JvhwBFcA.jpg",
-      "audio": {
-        "alvaro": "audio/video-bV8JvhwBFcA_alvaro.mp3"
-      },
-      "script": "¿Te acuerdas de Galloper? Esos todoterreno simpáticos que eran básicamente Mitsubishi o Hyundai obsoletos, pero que vendieron bien aquí. Pues alguien ha comprado los derechos de la marca para España y quiere resucitarla trayendo coches chinos. Pero ojo, porque esto pinta bastante regular.\n\nTe cuento. Según lo que se está contando por ahí, los coches vendrían en contenedores y se ensamblarían en la factoría de Santana en Linares, Jaén. El problema es que Santana lo niega rotundamente. Y el fabricante chino que supuestamente estaría metido también dice que no tiene nada que ver. Vamos, que nadie confirma nada de lo que se dice.\n\nLa estructura empresarial detrás del proyecto parece muy débil, nada que ver con lo que fue Galloper en su día. Desde fuera, esto huele a oportunismo puro: coger una marca que tuvo cierto prestigio en España, ponerle la chapa a algún todoterreno chino barato y venderlo como si fuera algo especial. Ya veremos hasta dónde llega esto, pero de momento, más sombras que luces."
+      "audio": {},
+      "script": ""
+    },
+    {
+      "id": "video-cdeeet4piKI",
+      "name": "ZEEKR X7: YA LO HE PROBADO y ESTO VA MUY EN SERIO",
+      "title": "",
+      "categoria": "videos",
+      "tags": [
+        "Vídeo"
+      ],
+      "source": "https://www.youtube.com/watch?v=cdeeet4piKI",
+      "youtube": "cdeeet4piKI",
+      "fecha": "2026-06-09",
+      "order": 20260609,
+      "duration": 1387,
+      "image": "images/video-cdeeet4piKI.jpg",
+      "audio": {},
+      "script": ""
     },
     {
       "id": "video-IWf7zC6W1Q4",
-      "name": "Audi Nuvolari: ¿el mayor error de diseño?",
-      "title": "Medio millón de euros por un superdeportivo que no convence",
+      "name": "PRIMERO MERCEDES - LUEGO FERRARI - AHORA AUDI ¿QUÉ ESTÁN HACIENDO EN EUROPA?",
+      "title": "",
       "categoria": "videos",
       "tags": [
-        "Audi",
-        "Superdeportivos",
-        "Opinión"
+        "Vídeo"
       ],
       "source": "https://www.youtube.com/watch?v=IWf7zC6W1Q4",
+      "youtube": "IWf7zC6W1Q4",
       "fecha": "2026-06-08",
       "order": 20260608,
-      "duration": 180,
+      "duration": 357,
       "image": "images/video-IWf7zC6W1Q4.jpg",
-      "audio": {
-        "alvaro": "audio/video-IWf7zC6W1Q4_alvaro.mp3"
-      },
-      "script": "Vale, tenemos que hablar. Audi acaba de presentar el Nuvolari, su nuevo superdeportivo que debería ser el relevo natural del TT y del R8. Y lo digo sin rodeos: me parece un auténtico desastre de diseño. Medio millón de euros por un coche que parece sacado de Minecraft o de una caja de Lego. No es broma.\n\nMira, yo soy muy fan de Audi. El TT me encantaba, el R8 me parecía espectacular con ese V10 atmosférico que compartía con Lamborghini. Pero esto, esto es otra cosa. El Nuvolari tiene unas formas cuadriculadas y desproporcionadas que más que homenajear al R8, lo que hacen es atropellar su legado. Es un pegote visual que no entiendo.\n\nY lo peor es que no es un caso aislado. Primero fue Mercedes con el AMG GT de cuatro puertas, que tiene un frontal de Smart y una trasera que parece una vitrocerámica. Luego Ferrari nos trajo el Puche, que tampoco es que sea precisamente bonito. Y ahora Audi se suma a esta tendencia de diseños incomprensibles en coches carísimos.\n\nEso sí, a nivel técnico el Nuvolari es una bestia. Mil un caballos de potencia, más incluso que el Lamborghini Temerario con el que comparte mecánica. Lleva un V8 biturbo de cuatro litros con tres motores eléctricos y una batería pequeña de siete coma tres kilovatios hora. Hace el cero a cien en dos coma seis segundos. Es una máquina absoluta.\n\nPero claro, el problema es que ya no lleva ese glorioso V10 atmosférico del R8. Ese motor que te ponía los pelos de punta, ese sonido único, eso se acabó. Han enterrado el motor pentacilíndrico dos punto cinco turbo y el V10. Adiós a una era.\n\nLo curioso es que este Nuvolari es completamente eléctrico enchufable y súper limitado. Habrá gente con mucho dinero pero poco criterio que lo comprará por el efecto coleccionista de tener el Audi más potente de la historia. Pero sinceramente, por ese precio y con ese diseño, yo paso.\n\nMientras tanto, hay una marca que está haciendo las cosas bien: Lotus. Sí, ahora propiedad de los chinos, pero acaban de anunciar el Emira cuatrocientos veinte Sport. Un coche ligero, con un cuatro cilindros turbo de AMG preparado hasta cuatrocientos veinte caballos, tubos de escape gordos y filosofía pura de Colin Chapman: menos peso, no más potencia. Eso sí que tiene sentido.\n\nLa industria del automóvil europea, especialmente en los superdeportivos, parece perdida. Más kilos, más potencia, diseños incomprensibles. Y yo me pregunto: ¿de verdad esto es lo que queremos? Cuéntame en los comentarios qué te parece este Nuvolari. Pulgar arriba o abajo, tú decides."
+      "audio": {},
+      "script": ""
     },
     {
       "id": "video-ETEvhUrGdlg",
-      "name": "Combustión sin emisiones: la propuesta bomba",
-      "title": "La UE estudia igualar coches de combustible renovable con eléctricos",
+      "name": "¡LOS COCHES DE COMBUSTIÓN PODRÍAN SER CERO EMISIONES! OJO A ESTO",
+      "title": "",
       "categoria": "videos",
       "tags": [
-        "Combustibles alternativos",
-        "Normativa",
-        "Futuro del motor",
         "Short"
       ],
       "source": "https://www.youtube.com/watch?v=ETEvhUrGdlg",
+      "youtube": "ETEvhUrGdlg",
       "fecha": "2026-06-07",
       "order": 20260607,
-      "duration": 94,
+      "duration": 127,
       "image": "images/video-ETEvhUrGdlg.jpg",
-      "audio": {
-        "alvaro": "audio/video-ETEvhUrGdlg_alvaro.mp3"
-      },
-      "script": "Acabo de conseguir un documento de la Unión Europea que puede cambiarlo todo. Es un informe con recomendaciones para el reglamento de emisiones de CO2, y hay una propuesta que me tiene alucinado. Quieren crear una nueva categoría de coches: los VEF, vehículos que funcionan exclusivamente con combustibles autorizados.\n\n¿Y qué significa esto? Pues que tu coche de combustión podría seguir circulando indefinidamente si usas combustibles alternativos certificados. Hablamos de combustibles renovables hechos con residuos o combustibles sintéticos que tienen cero emisiones netas de CO2. Es decir, que compensan todo lo que emite tu coche durante su producción.\n\nLo bestial es que proponen darles la misma categoría que a los coches eléctricos o de hidrógeno. Sí, has oído bien: bajo el principio de neutralidad tecnológica, un coche de combustión con estos combustibles sería oficialmente cero emisiones.\n\nY no es ciencia ficción. Ya hay combustibles renovables en muchas gasolineras españolas con una reducción de emisiones del setenta u ochenta por ciento. No estamos hablando de pagar cuatro euros el litro. Son combustibles que ya existen y funcionan.\n\nAhora las preguntas clave son dos: ¿podrán las petroleras escalar la producción? ¿Y aceptará la UE estas propuestas? Porque esto sale de un grupo de trabajo y ahora toca ver si prospera. Estaremos muy atentos, porque esto podría salvar al motor de combustión."
+      "audio": {},
+      "script": ""
     },
     {
       "id": "video-rlf3HwOBEB0",
-      "name": "La UE permite coches de combustión cero emisiones",
-      "title": "Combustibles sintéticos y renovables al nivel del eléctrico",
+      "name": "DESVELADO EL PLAN DE LA UE QUE PUEDE CAMBIAR TODO: COCHES DE COMBUSTIÓN CON ETIQUETA CERO EMISIONES",
+      "title": "",
       "categoria": "videos",
       "tags": [
-        "Combustibles alternativos",
-        "Normativa europea",
-        "Cero emisiones"
+        "Vídeo"
       ],
       "source": "https://www.youtube.com/watch?v=rlf3HwOBEB0",
+      "youtube": "rlf3HwOBEB0",
       "fecha": "2026-06-06",
       "order": 20260606,
-      "duration": 223,
+      "duration": 739,
       "image": "images/video-rlf3HwOBEB0.jpg",
-      "audio": {
-        "alvaro": "audio/video-rlf3HwOBEB0_alvaro.mp3"
-      },
-      "script": "Tío, esto es gordo. Muy gordo. La Unión Europea podría cambiar completamente las reglas del juego para dos mil treinta y cinco, y no es un rumor de internet. Es un documento real de una comisión europea, la ENVI, que está trabajando en el reglamento de emisiones de CO2. Ojo, esto todavía no es definitivo, están en fase de enmiendas, pero es relevante porque la UE ya ha rectificado dos veces en su cruzada contra el motor de combustión.\n\nTe cuento lo gordo: quieren crear una nueva categoría de coches, los VEF. Son vehículos que funcionan exclusivamente con combustibles elegidos, renovables o sintéticos, que tengan certificación oficial de cero emisiones de CO2. Si ese combustible compensa al cien por cien las emisiones que generó al producirse, el coche es considerado cero emisiones. Igual que un eléctrico. Igual que uno de hidrógeno.\n\n¿Captas la que se puede liar? Hasta ahora, cero emisiones significaba eléctrico o hidrógeno. Punto. Pero si esto se aprueba, un coche con motor de combustión interna movido por estos combustibles certificados también sería cero emisiones. Y aquí viene la bomba: no computaría para la reducción del noventa por ciento de emisiones que se exige en dos mil treinta y cinco. Es decir, los fabricantes podrían seguir vendiendo motores de combustión sin ese límite aplastante, siempre que funcionen solo con estos combustibles.\n\nClaro, el truco está en cómo un coche diferencia un combustible sintético de uno fósil. Habrá que meter sensores, protocolos técnicos, pero oye, ya están planteándolo en negro sobre blanco. Es un cambio de paradigma bestial. Dos mil treinta y cinco perdería parte de su sentido como fecha de muerte del motor térmico.\n\nY no acaba ahí. Quieren dar supercréditos a los fabricantes que ya pongan estos coches VEF en el mercado antes de dos mil treinta y cinco. Que no esperen. Que empiecen ya. También darán créditos por usar acero con bajo contenido de carbono en la producción. Todo suma para compensar emisiones.\n\nOtra bomba del informe: se confirman los ECAR, esos coches eléctricos pequeñitos fabricados en Europa, como el nuevo Citroën Dos Caballos. Por debajo de unos quince mil euros, pensados para ciudad. Cada ECAR vendido contará como uno coma cinco coches eléctricos en el cómputo de emisiones. Vamos, que te dan más puntos por vender un utilitario eléctrico europeo que un Tesla Model S.\n\nY un tercer detalle: el factor de utilidad de los híbridos enchufables, que cada vez les aprieta más las tuercas porque se supone que la gente los usa más en modo gasolina que eléctrico, también entra en revisión. Quieren obligar indirectamente a que los enchufables tengan más autonomía real en eléctrico.\n\nMira, yo llevo tiempo hablando de combustibles alternativos en el canal y poca gente le hace caso. Pero aquí está, en un documento europeo oficial. Si esto se aprueba, cambia la foto completamente. El motor de combustión no desaparece en dos mil treinta y cinco, simplemente cambia de combustible. Y eso, en mi opinión, tiene todo el sentido del mundo si de verdad creemos en la neutralidad tecnológica. Lo importante son las emisiones reales, no el tipo de motor. Veremos si Bruselas tiene el valor de seguir adelante con esto o si vuelve a rectificar. Pero el debate ya está encima de la mesa."
+      "audio": {},
+      "script": ""
     },
     {
       "id": "video-L1GbdYZS5gg",
-      "name": "Solucionar una avería de 15.000€ por 1.000€",
-      "title": "Un producto químico evita cambiar el motor",
+      "name": "¿UNA AVERÍA DE 15.000€ RESUELTA POR MENOS DE 1.000€? ¿SALDRÁ?",
+      "title": "",
       "categoria": "videos",
       "tags": [
-        "Mecánica",
-        "Reparación",
-        "Averías",
         "Short"
       ],
       "source": "https://www.youtube.com/watch?v=L1GbdYZS5gg",
+      "youtube": "L1GbdYZS5gg",
       "fecha": "2026-06-04",
       "order": 20260604,
-      "duration": 66,
+      "duration": 108,
       "image": "images/video-L1GbdYZS5gg.jpg",
-      "audio": {
-        "alvaro": "audio/video-L1GbdYZS5gg_alvaro.mp3"
-      },
-      "script": "¿Cambiar un motor entero o probar con un producto químico? Este coche tenía los segmentos de los cilindros tan incrustados de suciedad que tocaba desmontar el motor. Una faena carísima y complicada. Pero el equipo ha decidido arriesgarse con un producto que limpia esas incrustaciones químicamente.\n\nLa idea es inundar los cilindros con el producto, dejarlo actuar para que reblandezca la porquería y luego usar el motor de arranque para que los segmentos se muevan y suelten toda esa mugre. Suena a experimento de laboratorio, y de hecho la reacción química se ve en directo. Ahí sale todo fuera como un volcán. Ahora toca esperar a que haga su magia.\n\nY varios días después, la sorpresa: la compresión ha subido de treinta y siete a treinta y nueve bar. Dieciséis bar de diferencia. Un cambio espectacular. Check verde total. Han conseguido salvar el motor sin desmontarlo, ahorrando una barbaridad de dinero y de trabajo. A veces la química funciona mejor que la llave inglesa."
+      "audio": {},
+      "script": ""
     },
     {
       "id": "video-N9dzXsEVcaE",
-      "name": "Denza B5: el chino que reta al Land Cruiser",
-      "title": "Seiscientos setenta caballos híbridos enchufables y todoterreno puro",
+      "name": "El Toyota Land Cruiser tiene un problema muy grave: Denza B5 - ¡Que vienen los chinos! También aquí",
+      "title": "",
       "categoria": "videos",
       "tags": [
-        "Denza",
-        "Todoterreno",
-        "Híbrido enchufable"
+        "Vídeo"
       ],
       "source": "https://www.youtube.com/watch?v=N9dzXsEVcaE",
+      "youtube": "N9dzXsEVcaE",
       "fecha": "2026-06-04",
       "order": 20260604,
-      "duration": 177,
+      "duration": 901,
       "image": "images/video-N9dzXsEVcaE.jpg",
-      "audio": {
-        "alvaro": "audio/video-N9dzXsEVcaE_alvaro.mp3"
-      },
-      "script": "Qué tal. Álvaro al habla. Hoy te traigo algo que va a revolucionar el mundo del todoterreno puro, y viene directo desde China para plantar cara al Toyota Land Cruiser, al Land Rover Defender y al Jeep Wrangler. Se llama Denza B5 y créeme, esto es muy serio.\n\nHe estado en China probándolo a fondo en condiciones extremas de barro, y este cacharro me ha dejado impresionado. Es un todoterreno puro, con chasis de largueros y travesaños de toda la vida, pero con una tecnología que deja a los clásicos en pañales. Mide casi cuatro metros noventa de largo, suspensión hidráulica que sube el coche hasta doscientos setenta milímetros, bloqueos de diferencial delantero y trasero, reductora, ángulos de ataque de treinta y cinco a treinta y nueve grados. Vamos, lo que esperas de un todoterreno en condiciones.\n\nPero aquí viene lo bueno. Es un híbrido enchufable con la tecnología DMO de BYD. Lleva un motor de gasolina de ciento cincuenta centímetros cúbicos que actúa como generador, más dos motores eléctricos, uno en cada eje. Y ojo a esto: suma seiscientos setenta caballos de potencia. Una barbaridad. La batería es LFP de treinta y uno coma ocho kilovatios hora, lo que te da entre noventa y cien kilómetros de autonomía eléctrica pura. O sea, que puedes hacer todoterreno sin quemar ni una gota de gasolina.\n\nY tiene trucos muy chulos. Por ejemplo, gracias a los motores eléctricos en cada eje, puede hacer giros en U reduciendo drásticamente el radio de giro, algo que los todoterrenos tradicionales no pueden hacer. Además, lleva nevera dentro, interiores bastante lujosos con muchas pantallas, y sistema V2L para que te lleves al campo la cafetera eléctrica o lo que necesites.\n\nLo he probado en un circuito todoterreno con barro hasta las trancas, de esos que te hacen sudar, y el bicho se ha desenvuelto de lujo. El sistema de tracción se emplea a fondo y te saca de situaciones complicadas sin despeinarse.\n\nAhora viene como Denza a Europa, aunque en China se vende como Fan Chengbao. El B5 será el primero en llegar, y también traerán un B3 más pequeño que va a ser el de acceso. El B8, que es más grande, ese de momento se queda allí.\n\nMi opinión: Toyota y Land Rover tienen un problema muy serio. Este Denza B5 ofrece más tecnología, más potencia, más eficiencia y probablemente un precio bastante más ajustado. La durabilidad y robustez a largo plazo son la incógnita, porque ahí los japoneses son imbatibles. Pero como primera generación de todoterrenos chinos enchufables, esto es impresionante. Si BYD acierta con el precio, el Land Cruiser lo va a pasar mal. Muy mal."
+      "audio": {},
+      "script": ""
+    },
+    {
+      "id": "video-g600YTtqeaI",
+      "name": "LA LOCURA DE LOS CALENTADORES y SU PRECIO",
+      "title": "",
+      "categoria": "videos",
+      "tags": [
+        "Short"
+      ],
+      "source": "https://www.youtube.com/watch?v=g600YTtqeaI",
+      "youtube": "g600YTtqeaI",
+      "fecha": "2026-06-03",
+      "order": 20260603,
+      "duration": 97,
+      "image": "images/video-g600YTtqeaI.jpg",
+      "audio": {},
+      "script": ""
+    },
+    {
+      "id": "video-nyt0ZqqNYTE",
+      "name": "OFICIAL: MG PLANTA SU PRIMERA FÁBRICA EN GALICIA - EUROPA ESTÁ COLAPSANDO (MÁS NOTICIAS SERIAS)",
+      "title": "",
+      "categoria": "videos",
+      "tags": [
+        "Vídeo"
+      ],
+      "source": "https://www.youtube.com/watch?v=nyt0ZqqNYTE",
+      "youtube": "nyt0ZqqNYTE",
+      "fecha": "2026-06-02",
+      "order": 20260602,
+      "duration": 810,
+      "image": "images/video-nyt0ZqqNYTE.jpg",
+      "audio": {},
+      "script": ""
+    },
+    {
+      "id": "video-qZv9xrbjD_Y",
+      "name": "¡NOTICIÓN CONFIRMADO! SAIC (MG) CONSTRUIRÁ UNA NUEVA FÁBRICA de COCHES EN ESPAÑA (FERROL, GALICIA)",
+      "title": "",
+      "categoria": "videos",
+      "tags": [
+        "Short"
+      ],
+      "source": "https://www.youtube.com/watch?v=qZv9xrbjD_Y",
+      "youtube": "qZv9xrbjD_Y",
+      "fecha": "2026-06-01",
+      "order": 20260601,
+      "duration": 148,
+      "image": "images/video-qZv9xrbjD_Y.jpg",
+      "audio": {},
+      "script": ""
+    },
+    {
+      "id": "video-xymTOjivsOE",
+      "name": "AHORA PROBADO A FONDO: ANÁLISIS CRITICO DEL MAZDA CX-5 2.5- MÁS ESPACIO Y CONFORT - MENOS DINÁMICO",
+      "title": "",
+      "categoria": "videos",
+      "tags": [
+        "Vídeo"
+      ],
+      "source": "https://www.youtube.com/watch?v=xymTOjivsOE",
+      "youtube": "xymTOjivsOE",
+      "fecha": "2026-06-01",
+      "order": 20260601,
+      "duration": 1444,
+      "image": "images/video-xymTOjivsOE.jpg",
+      "audio": {},
+      "script": ""
+    },
+    {
+      "id": "video-lUEgk8l8QRg",
+      "name": "PARA ESTO SÍ HAY PRESUPUESTO: ESTE RADAR CON LIDAR SE VA a HINCHAR A PONER MULTAS (DGT)",
+      "title": "",
+      "categoria": "videos",
+      "tags": [
+        "Short"
+      ],
+      "source": "https://www.youtube.com/watch?v=lUEgk8l8QRg",
+      "youtube": "lUEgk8l8QRg",
+      "fecha": "2026-05-31",
+      "order": 20260531,
+      "duration": 71,
+      "image": "images/video-lUEgk8l8QRg.jpg",
+      "audio": {},
+      "script": ""
     }
   ]
 }

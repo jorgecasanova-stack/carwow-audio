@@ -1,5 +1,5 @@
 /* Carwow Audio service worker — instalable + audios offline + avisos de noticias */
-const VERSION = 'cwa-v3';
+const VERSION = 'cwa-v4';
 const SHELL = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png'];
 const KNOWN_KEY = 'cwa-known-news';   // ids de noticias ya conocidas (en Cache)

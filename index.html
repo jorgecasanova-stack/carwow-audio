@@ -188,9 +188,17 @@ const fmt = (s)=>{s=Math.floor(s||0);return Math.floor(s/60)+':'+String(s%60).pa
 const esc = (t)=>(t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const norm = (s)=>(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
 
+// Las noticias y los vídeos "caducan" del listado tras N días (siguen en el buscador).
+// Las pruebas se muestran SIEMPRE todas.
+const FRESH_DAYS = { noticias: 14, videos: 14 };
+function daysAgoISO(n){ const d=new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
 function catEpisodes(k){
-  const list = M.episodes.filter(e=>catOf(e)===k);
-  if(k==='noticias'||k==='videos') return list.sort((a,b)=>(b.fecha||'').localeCompare(a.fecha||'')||(''+b.order).localeCompare(''+a.order));
+  let list = M.episodes.filter(e=>catOf(e)===k);
+  if(k==='noticias'||k==='videos'){
+    const cutoff = daysAgoISO(FRESH_DAYS[k]);
+    list = list.filter(e => (e.fecha||'') >= cutoff);
+    return list.sort((a,b)=>(b.fecha||'').localeCompare(a.fecha||'')||(''+b.order).localeCompare(''+a.order));
+  }
   return list.sort((a,b)=>a.order-b.order);
 }
 function metaLine(e){
@@ -270,8 +278,13 @@ function doSearch(){
   const q = ($('q')?.value||'').trim();
   const box = $('results'); if(!box) return;
   if(!q){ box.innerHTML = tilesHtml(); return; }
-  const nq = norm(q);
-  const hits = M.episodes.filter(e=> norm(e.name+' '+e.title+' '+(e.tags||[]).join(' ')).includes(nq))
+  // Busca en TODAS las categorías (incluidas noticias/vídeos ya caducados del listado).
+  // Cada palabra debe aparecer (en cualquier orden): "byd dolphin" = "dolphin byd".
+  const terms = norm(q).split(/\s+/).filter(Boolean);
+  const hits = M.episodes.filter(e=>{
+      const hay = norm(e.name+' '+e.title+' '+(e.tags||[]).join(' '));
+      return terms.every(t=>hay.includes(t));
+    })
     .sort((a,b)=> (a.categoria.localeCompare(b.categoria)) || (''+b.order).localeCompare(''+a.order));
   if(!hits.length){ box.innerHTML = `<p class="empty">Sin resultados para “${esc(q)}”.</p>`; return; }
   box.innerHTML = hits.map(e=>searchRow(e)).join('');

@@ -107,6 +107,11 @@
     background:#171717;color:#fff;font-weight:700;font-size:14px;padding:12px 20px;border-radius:30px;
     opacity:0;transition:.25s;z-index:50;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.25)}
   .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .iosbar{position:fixed;left:12px;right:12px;bottom:14px;z-index:40;background:#171717;color:#fff;
+    border-radius:14px;padding:12px 14px;display:none;align-items:center;gap:10px;
+    box-shadow:0 8px 26px rgba(0,0,0,.3);font-size:13.5px;line-height:1.35}
+  .iosbar b{color:var(--accent)}
+  .iosbar .x{margin-left:auto;font-size:22px;opacity:.7;cursor:pointer;flex:0 0 auto;padding:0 4px}
   #install{display:none}
 </style>
 </head>
@@ -121,6 +126,7 @@
   <div class="wrap" id="screen"></div>
   <audio id="audio" preload="metadata"></audio>
   <div class="toast" id="toast"></div>
+  <div class="iosbar" id="iosbar"></div>
 
 <script>
 const $ = (id) => document.getElementById(id);
@@ -173,6 +179,7 @@ async function init(){
     if(notifOn()) setupPeriodicNews(true);
     const hid = location.hash.slice(1);
     if(hid && ep(hid)) go('player', hid); else render();
+    maybeIosHint();
   }catch(e){
     screen.innerHTML = `<div class="center"><p>No se pudo cargar el contenido.<br>Revisa la conexión.</p>
       <button class="btn" onclick="init()">Reintentar</button></div>`;
@@ -335,6 +342,18 @@ function toggleScript(){ const box=$('scriptBox'),btn=$('scriptBtn'); if(!box)re
   else{box.setAttribute('hidden','');btn.textContent='📄 Ver transcripción';} }
 function toggleHeard(){ const id=currentId,now=!heard()[id]; setHeard(id,now);
   const b=$('heardbtn'); if(b){b.classList.toggle('on',now);b.textContent=now?'✓ Escuchado':'Marcar escuchado';} }
+
+// Aviso de instalación SOLO en iPhone/iPad (iOS no muestra el botón "Instalar" nativo)
+function maybeIosHint(){
+  const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent) ||
+                (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+  const standalone = ('standalone' in navigator) && navigator.standalone;
+  if(!isIos || standalone || localStorage.getItem('cwa.iosHint')==='off') return;
+  const b = $('iosbar'); if(!b) return;
+  b.innerHTML = `<span>📲 Instala Carwow Audio: toca <b>Compartir</b> y luego <b>“Añadir a pantalla de inicio”</b>.</span>`+
+    `<span class="x" onclick="$('iosbar').style.display='none';localStorage.setItem('cwa.iosHint','off')">×</span>`;
+  b.style.display = 'flex';
+}
 
 let toastT;
 function toast(msg){ const t=$('toast'); if(!t)return; t.textContent=msg; t.classList.add('show');

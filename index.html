@@ -9,109 +9,138 @@
 <meta name="apple-mobile-web-app-title" content="Carwow Audio" />
 <link rel="manifest" href="manifest.webmanifest" />
 <link rel="apple-touch-icon" href="icons/icon-192.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Tilt+Warp&display=swap" rel="stylesheet">
 <title>Carwow Audio</title>
 <style>
   :root{
-    --bg:#F4F6F7; --card:#FFFFFF; --soft:#EAEEF0; --accent:#1EDCE8; --accent-ink:#0B8C97;
-    --text:#171717; --muted:#6B7785; --green:#16B364; --border:#E2E7EA;
+    --bg:#F4F6F7; --card:#FFFFFF; --soft:#EAEEF0; --blue:#1EDCE8; --blue-ink:#0B8C97;
+    --ink:#171717; --muted:#6B7785; --green:#16B364; --border:#E2E7EA; --red:#E11D2A;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-  html,body{margin:0;color:var(--text);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  html,body{margin:0;color:var(--ink);
+    font-family:'Poppins',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
   body{padding-bottom:env(safe-area-inset-bottom);min-height:100vh;background:var(--bg)}
-  .topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);
+  body.has-mini{padding-bottom:78px}
+  .display{font-family:'Tilt Warp','Poppins',sans-serif;font-weight:400;letter-spacing:.3px}
+  .topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);
     backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:space-between;
     padding:8px 16px;border-bottom:1px solid var(--border)}
-  .logo-img{height:38px;display:block;cursor:pointer}
-  .topbtn{background:none;border:0;color:var(--accent-ink);font-weight:800;font-size:15px;cursor:pointer}
-  .wrap{max-width:620px;margin:0 auto;padding:16px 16px 56px}
-  .kicker{font-size:12px;font-weight:800;letter-spacing:1.5px;margin:4px 0 10px;color:var(--accent-ink)}
-  .section{color:var(--text);font-size:20px;font-weight:800;margin:26px 0 12px}
+  .logo-img{height:40px;display:block;cursor:pointer}
+  .topbtn{background:none;border:0;color:var(--blue-ink);font-weight:700;font-size:15px;cursor:pointer;font-family:'Poppins'}
+  .wrap{max-width:620px;margin:0 auto;padding:16px 16px 60px}
+  .kicker{font-size:12px;font-weight:800;letter-spacing:1.8px;margin:4px 0 12px;color:var(--blue-ink);text-transform:uppercase}
+  .section{font-size:21px;margin:26px 0 12px;text-transform:uppercase}
 
-  /* ----- HOME: cajas de categoría ----- */
+  /* búsqueda */
+  .search{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);
+    border-radius:14px;padding:11px 14px;margin:2px 0 14px}
+  .search svg{flex:0 0 auto}
+  .search input{border:0;outline:0;flex:1;font-size:16px;font-family:'Poppins';color:var(--ink);background:none}
+  .empty{color:var(--muted);text-align:center;margin:30px 0}
+
+  /* HOME: cajas de categoría */
   .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:6px}
-  .ctile{position:relative;border-radius:20px;padding:20px 18px;min-height:120px;color:#fff;
-    display:flex;flex-direction:column;cursor:pointer;overflow:hidden;
-    box-shadow:0 6px 20px rgba(23,23,23,.08)}
+  .ctile{position:relative;border-radius:20px;padding:20px 18px;min-height:118px;color:#fff;
+    display:flex;flex-direction:column;cursor:pointer;overflow:hidden;box-shadow:0 6px 20px rgba(23,23,23,.08)}
   .ctile .cemoji{font-size:30px}
-  .ctile .cname{font-size:25px;font-weight:800;line-height:1.05;margin:8px 0 4px}
-  .ctile .ctag{font-size:14px;opacity:.85;flex:1}
-  .ctile .cstatus{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:800;margin-top:14px}
+  .ctile .cname{font-size:26px;line-height:1.02;margin:8px 0 4px;text-transform:uppercase}
+  .ctile .ctag{font-size:14px;opacity:.9;flex:1}
+  .ctile .cstatus{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:700;margin-top:14px}
   .cdot{width:8px;height:8px;border-radius:50%;display:inline-block;background:#fff}
 
-  /* ----- listas / tarjetas ----- */
-  .hero{border-radius:20px;overflow:hidden;background:var(--card);position:relative;cursor:pointer;
-    box-shadow:0 6px 20px rgba(23,23,23,.10)}
+  /* listas */
+  .hero{border-radius:20px;overflow:hidden;background:var(--card);position:relative;cursor:pointer;box-shadow:0 6px 20px rgba(23,23,23,.10)}
   .hero img{width:100%;height:240px;object-fit:cover;display:block}
   .hero .ov{padding:16px;position:absolute;left:0;right:0;bottom:0;
     background:linear-gradient(transparent,rgba(0,0,0,.45) 35%,rgba(0,0,0,.85));color:#fff}
   .hero .era{font-size:12px;font-weight:800;letter-spacing:1px}
-  .hero .name{font-size:28px;font-weight:800;margin:2px 0}
+  .hero .name{font-size:26px;margin:2px 0;line-height:1.05}
+  .hero .name.up{text-transform:uppercase}
   .hero .title{color:#E8EDEF;font-size:15px}
-  .play-pill{margin-top:12px;display:inline-block;color:#06262A;font-weight:800;font-size:14px;
-    padding:9px 16px;border-radius:30px}
+  .hero .bigplay{position:absolute;top:calc(50% - 34px);left:calc(50% - 28px);font-size:0}
+  .bigplay i{display:block;width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,.45);
+    border:2px solid #fff;color:#fff;font-style:normal;font-size:26px;line-height:60px;text-align:center}
+  .play-pill{margin-top:12px;display:inline-block;color:#06262A;font-weight:800;font-size:14px;padding:9px 16px;border-radius:30px}
   .row{display:flex;align-items:center;background:var(--card);border:1px solid var(--border);
     border-radius:14px;padding:10px;margin-bottom:10px;cursor:pointer}
-  .row img,.thumb{width:64px;height:64px;border-radius:10px;object-fit:cover;background:var(--soft);flex:0 0 auto}
-  .thumb{display:flex;align-items:center;justify-content:center;color:var(--accent-ink);font-weight:800;font-size:24px}
+  .media{position:relative;flex:0 0 auto;width:64px;height:64px}
+  .media img,.thumb{width:64px;height:64px;border-radius:10px;object-fit:cover;background:var(--soft)}
+  .media .pl{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;text-shadow:0 1px 4px rgba(0,0,0,.7)}
+  .thumb{display:flex;align-items:center;justify-content:center;color:var(--blue-ink);font-weight:800;font-size:24px}
   .row .body{flex:1;margin-left:12px;min-width:0}
-  .row .nm{color:var(--text);font-size:16px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .nm{color:var(--ink);font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .row .tt{color:var(--muted);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .row .mt{font-size:11px;margin-top:3px;font-weight:700}
+  .row .cattag{font-size:10px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
   .badge{margin-left:8px;font-size:18px;font-weight:800;flex:0 0 auto}
   .badge.h{color:var(--green)} .badge.n{font-size:11px}
-  .ministars{color:var(--accent-ink);font-size:12px;margin-top:2px;letter-spacing:1px}
+  .ministars{color:var(--blue-ink);font-size:12px;margin-top:2px;letter-spacing:1px}
   .pbar-mini{height:4px;border-radius:2px;background:var(--soft);margin-top:6px;overflow:hidden}
   .pbar-mini>i{display:block;height:100%}
 
-  /* ----- player ----- */
+  /* player */
   .cover{width:100%;height:300px;border-radius:18px;object-fit:cover;background:var(--card)}
-  .ph{display:flex;align-items:center;justify-content:center;color:var(--accent-ink);font-weight:800}
-  .p-era{font-size:12px;font-weight:800;letter-spacing:1.5px;margin-top:18px;color:var(--accent-ink)}
-  .p-name{font-size:30px;font-weight:800;margin:4px 0 0}
+  .ph{display:flex;align-items:center;justify-content:center;color:var(--blue-ink);font-weight:800}
+  .p-era{font-size:12px;font-weight:800;letter-spacing:1.5px;margin-top:18px;color:var(--blue-ink);text-transform:uppercase}
+  .p-name{font-size:30px;margin:4px 0 0;line-height:1.06}
+  .p-name.up{text-transform:uppercase}
   .p-title{color:var(--muted);font-size:16px;margin-top:2px}
+  .embed{position:relative;width:100%;padding-top:56.25%;border-radius:16px;overflow:hidden;background:#000;margin-top:8px}
+  .embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
   .track{height:7px;border-radius:4px;background:var(--soft);margin-top:26px;overflow:hidden;cursor:pointer}
-  .track>i{display:block;height:100%;background:var(--accent);width:0}
+  .track>i{display:block;height:100%;background:var(--blue);width:0}
   .times{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin-top:6px}
   .controls{display:flex;align-items:center;justify-content:center;gap:30px;margin-top:18px}
-  .ctrl{background:none;border:0;color:var(--text);font-size:17px;font-weight:800;cursor:pointer}
-  .playbtn{width:74px;height:74px;border-radius:50%;background:var(--accent);color:#06262A;border:0;
-    font-size:26px;cursor:pointer;display:flex;align-items:center;justify-content:center;
-    box-shadow:0 6px 18px rgba(30,220,232,.45)}
-  .heardbtn{display:block;margin:22px auto 0;border:1px solid var(--border);background:var(--card);color:var(--muted);
-    font-weight:800;padding:11px 22px;border-radius:30px;cursor:pointer}
-  .heardbtn.on{border-color:var(--green);color:var(--green);background:#E9F9F0}
+  .ctrl{background:none;border:0;color:var(--ink);font-size:17px;font-weight:800;cursor:pointer}
+  .playbtn{width:74px;height:74px;border-radius:50%;background:var(--blue);color:#06262A;border:0;
+    font-size:26px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(30,220,232,.45)}
+  .actions{display:flex;gap:10px;margin-top:22px}
+  .actbtn{flex:1;border:1px solid var(--border);background:var(--card);color:var(--muted);
+    font-weight:700;padding:11px 16px;border-radius:30px;cursor:pointer;font-family:'Poppins';font-size:14px}
+  .actbtn.on{border-color:var(--green);color:var(--green);background:#E9F9F0}
   .rate{margin-top:22px;text-align:center;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px}
   .rate .q{color:var(--muted);font-size:14px;font-weight:700}
   .stars{font-size:34px;letter-spacing:6px;margin-top:8px;cursor:pointer;user-select:none}
   .stars span{color:#CBD3D8;transition:color .1s}
-  .stars span.on{color:var(--accent-ink)}
-  .src-link{display:block;text-align:center;margin-top:16px;color:var(--accent-ink);font-weight:700;font-size:14px;text-decoration:none}
+  .stars span.on{color:var(--blue-ink)}
+  .src-link{display:block;text-align:center;margin-top:16px;color:var(--blue-ink);font-weight:700;font-size:14px;text-decoration:none}
   .ghost{display:block;width:100%;margin-top:16px;background:var(--card);border:1px solid var(--border);
-    color:var(--accent-ink);font-weight:800;font-size:15px;padding:13px;border-radius:12px;cursor:pointer}
+    color:var(--blue-ink);font-weight:800;font-size:15px;padding:13px;border-radius:12px;cursor:pointer;font-family:'Poppins'}
   .script{color:#3A4750;font-size:15px;line-height:1.6;white-space:pre-wrap;margin-top:14px}
   .script[hidden]{display:none}
   .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
   .tag{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:6px 12px;border-radius:20px;font-size:13px}
-  .center{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;text-align:center;padding:24px;color:var(--muted)}
-  .btn{background:var(--accent);color:#06262A;border:0;font-weight:800;padding:11px 22px;border-radius:30px;cursor:pointer;margin-top:16px}
-  .actions{display:flex;gap:10px;margin-top:22px}
-  .actions .heardbtn{margin:0;flex:1}
+  .center{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:55vh;text-align:center;padding:24px;color:var(--muted)}
+  .btn{background:var(--blue);color:#06262A;border:0;font-weight:800;padding:11px 22px;border-radius:30px;cursor:pointer;margin-top:16px;font-family:'Poppins'}
+
+  /* notif + toast + iOS + mini */
   .notifbar{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--border);
     border-radius:14px;padding:12px 14px;margin:2px 0 14px;cursor:pointer}
   .notifbar .ni{font-size:20px}
-  .notifbar .nt{flex:1;font-size:13.5px;font-weight:700;color:var(--text)}
-  .notifbar .ns{font-size:12px;font-weight:800;color:var(--accent-ink)}
+  .notifbar .nt{flex:1;font-size:13.5px;font-weight:600;color:var(--ink)}
+  .notifbar .ns{font-size:12px;font-weight:800;color:var(--blue-ink)}
   .notifbar.on .ns{color:var(--green)}
-  .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);
-    background:#171717;color:#fff;font-weight:700;font-size:14px;padding:12px 20px;border-radius:30px;
-    opacity:0;transition:.25s;z-index:50;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+  .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);
+    background:var(--ink);color:#fff;font-weight:700;font-size:14px;padding:12px 20px;border-radius:30px;
+    opacity:0;transition:.25s;z-index:60;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.25)}
   .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-  .iosbar{position:fixed;left:12px;right:12px;bottom:14px;z-index:40;background:#171717;color:#fff;
+  .iosbar{position:fixed;left:12px;right:12px;bottom:14px;z-index:40;background:var(--ink);color:#fff;
     border-radius:14px;padding:12px 14px;display:none;align-items:center;gap:10px;
     box-shadow:0 8px 26px rgba(0,0,0,.3);font-size:13.5px;line-height:1.35}
-  .iosbar b{color:var(--accent)}
+  .iosbar b{color:var(--blue)}
   .iosbar .x{margin-left:auto;font-size:22px;opacity:.7;cursor:pointer;flex:0 0 auto;padding:0 4px}
+  .mini{position:fixed;left:0;right:0;bottom:0;z-index:46;background:var(--ink);color:#fff;
+    display:none;align-items:center;gap:12px;padding:10px 12px;
+    padding-bottom:calc(10px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(0,0,0,.18);cursor:pointer}
+  .mini.show{display:flex}
+  .mini img{width:46px;height:46px;border-radius:8px;object-fit:cover;flex:0 0 auto}
+  .mini .mt{flex:1;min-width:0}
+  .mini .mn{font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mini .ms{font-size:12px;color:#9aa7b0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mini .mp{width:44px;height:44px;border-radius:50%;background:var(--blue);color:#06262A;border:0;font-size:18px;cursor:pointer;flex:0 0 auto}
+  .mini .mx{background:none;border:0;color:#9aa7b0;font-size:24px;cursor:pointer;flex:0 0 auto;padding:0 6px}
   #install{display:none}
 </style>
 </head>
@@ -127,25 +156,26 @@
   <audio id="audio" preload="metadata"></audio>
   <div class="toast" id="toast"></div>
   <div class="iosbar" id="iosbar"></div>
+  <div class="mini" id="mini" onclick="if(playingId)go('player',playingId)"></div>
 
 <script>
 const $ = (id) => document.getElementById(id);
 const screen = $('screen');
 const audio = $('audio');
 
-// Categorías (orden y estilo de la portada)
 const CATEGORIES = [
   { key:'pruebas',  name:'Pruebas de coches',   tag:'Reviews honestas: lo bueno y lo malo', emoji:'🚗', bg:'linear-gradient(135deg,#1EDCE8,#0B8C97)' },
   { key:'noticias', name:'Noticias y novedades', tag:'Lo último del motor, cada día',         emoji:'📰', bg:'linear-gradient(135deg,#3B82F6,#1E40AF)' },
-  { key:'videos',   name:'Vídeos de YouTube',    tag:'Los vídeos de carwow, para escuchar',   emoji:'▶️', bg:'linear-gradient(135deg,#FB5C5C,#C81E1E)' },
+  { key:'videos',   name:'Vídeos de YouTube',    tag:'Los vídeos del canal de Carwow',        emoji:'▶️', bg:'linear-gradient(135deg,#FB5C5C,#C81E1E)' },
 ];
 const catOf = (e) => e.categoria || 'pruebas';
 const catMeta = (k) => CATEGORIES.find(c=>c.key===k) || CATEGORIES[0];
 const accentOf = (k) => (k==='noticias'?'#1E40AF':k==='videos'?'#C81E1E':'#0B8C97');
+const isVideo = (e) => catOf(e)==='videos';
+const ytId = (e) => e.youtube || ((/[?&]v=([\w-]+)/.exec(e.source||'')||[])[1]) || '';
 
-let M = null, view = 'home', currentCat = 'pruebas', currentId = null;
+let M = null, view = 'home', currentCat = 'pruebas', currentId = null, playingId = null;
 
-// localStorage con prefijo propio (NO 'juis.' — comparten origen en github.io)
 const heard = () => JSON.parse(localStorage.getItem('cwa.heard')||'{}');
 const setHeard = (id,v)=>{const m=heard(); v?m[id]=1:delete m[id]; localStorage.setItem('cwa.heard',JSON.stringify(m));};
 const progress = () => JSON.parse(localStorage.getItem('cwa.progress')||'{}');
@@ -156,19 +186,19 @@ const setRating = (id,n)=>{const m=ratings(); m[id]=n; localStorage.setItem('cwa
 const ep = (id) => M.episodes.find(e=>e.id===id);
 const fmt = (s)=>{s=Math.floor(s||0);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');};
 const esc = (t)=>(t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const norm = (s)=>(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
 
 function catEpisodes(k){
   const list = M.episodes.filter(e=>catOf(e)===k);
-  // noticias: por fecha desc; resto: por order asc
   if(k==='noticias'||k==='videos') return list.sort((a,b)=>(b.fecha||'').localeCompare(a.fecha||'')||(''+b.order).localeCompare(''+a.order));
   return list.sort((a,b)=>a.order-b.order);
 }
-// Línea de meta de cada episodio (lo que en JUIS era "era")
 function metaLine(e){
   if((catOf(e)==='noticias'||catOf(e)==='videos') && e.fecha) return e.fecha.split('-').reverse().join('/');
   if(e.tags && e.tags.length) return e.tags.slice(0,2).join(' · ');
   return catMeta(catOf(e)).name;
 }
+const durStr = (e)=> e.duration ? ' · '+fmt(e.duration) : '';
 
 async function init(){
   if('serviceWorker' in navigator){ try{ await navigator.serviceWorker.register('sw.js'); }catch(e){} }
@@ -190,7 +220,7 @@ function go(v, arg){
   if(v==='home'){ view='home'; }
   else if(v==='cat'){ view='cat'; currentCat=arg; }
   else if(v==='player'){ view='player'; currentId=arg; }
-  render(); window.scrollTo(0,0);
+  render(); window.scrollTo(0,0); renderMini();
 }
 
 function render(){
@@ -200,76 +230,103 @@ function render(){
   else renderPlayer();
 }
 
-const imgTag = (e, cls) => e.image
-  ? `<img class="${cls}" src="${e.image}" alt="">`
-  : `<div class="${cls} ph" ${cls==='cover'?'style="font-size:64px"':''}>${esc(e.name[0])}</div>`;
+const media = (e) => {
+  const inner = e.image ? `<img src="${e.image}" alt="">` : `<div class="thumb">${esc(e.name[0])}</div>`;
+  return `<div class="media">${inner}${isVideo(e)?'<span class="pl">▶</span>':''}</div>`;
+};
 
-/* ---------- HOME (3 cajas) ---------- */
-function renderHome(){
+/* ---------- HOME ---------- */
+function tilesHtml(){
   const H = heard();
-  let cards = CATEGORIES.map(c=>{
+  return `<div class="grid">`+CATEGORIES.map(c=>{
     const all = catEpisodes(c.key);
     const pend = all.filter(e=>!H[e.id]).length;
     let status;
-    if(all.length===0) status = 'Muy pronto';
-    else if(pend===0) status = 'Al día';
-    else status = (pend===1?'1 nuevo':pend+' nuevos')+' por escuchar';
+    if(all.length===0) status='Muy pronto';
+    else if(c.key==='videos') status = all.length+(all.length===1?' vídeo':' vídeos');
+    else if(pend===0) status='Al día';
+    else status=(pend===1?'1 nuevo':pend+' nuevos')+' por escuchar';
     return `<div class="ctile" style="background:${c.bg}" onclick="go('cat','${c.key}')">
       <div class="cemoji">${c.emoji}</div>
-      <div class="cname">${esc(c.name)}</div>
+      <div class="cname display">${esc(c.name)}</div>
       <div class="ctag">${esc(c.tag)}</div>
       <div class="cstatus"><span class="cdot"></span>${status}</div>
     </div>`;
-  }).join('');
+  }).join('')+`</div>`;
+}
+function renderHome(){
   const on = notifOn();
   const notif = `<div class="notifbar ${on?'on':''}" onclick="toggleNotif()">
     <span class="ni">${on?'🔔':'🔕'}</span>
     <span class="nt">Avísame cuando lleguen noticias nuevas</span>
     <span class="ns">${on?'ACTIVADO':'Activar'}</span></div>`;
-  screen.innerHTML = `<div class="kicker">TU GARAJE EN AUDIO</div>
-    ${notif}
-    <div class="grid">${cards}</div>`;
+  const search = `<div class="search">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7785" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input id="q" type="search" inputmode="search" placeholder="Buscar marca, modelo… (p.ej. Dacia)" oninput="doSearch()" />
+  </div>`;
+  screen.innerHTML = `<div class="kicker">Tu garaje en audio</div>${notif}${search}<div id="results">${tilesHtml()}</div>`;
+}
+function doSearch(){
+  const q = ($('q')?.value||'').trim();
+  const box = $('results'); if(!box) return;
+  if(!q){ box.innerHTML = tilesHtml(); return; }
+  const nq = norm(q);
+  const hits = M.episodes.filter(e=> norm(e.name+' '+e.title+' '+(e.tags||[]).join(' ')).includes(nq))
+    .sort((a,b)=> (a.categoria.localeCompare(b.categoria)) || (''+b.order).localeCompare(''+a.order));
+  if(!hits.length){ box.innerHTML = `<p class="empty">Sin resultados para “${esc(q)}”.</p>`; return; }
+  box.innerHTML = hits.map(e=>searchRow(e)).join('');
+}
+function searchRow(e){
+  const c = catMeta(catOf(e)), acc = accentOf(catOf(e));
+  return `<div class="row" onclick="go('player','${e.id}')">${media(e)}
+    <div class="body">
+      <div class="cattag" style="color:${acc}">${c.emoji} ${esc(c.name)}</div>
+      <div class="nm">${esc(e.name)}</div>
+      <div class="mt" style="color:${acc}">${esc(metaLine(e))}${durStr(e)}</div>
+    </div>
+    <span class="badge ${heard()[e.id]?'h':'n'}" style="${heard()[e.id]?'':'color:'+acc}">${heard()[e.id]?'✓':'●'}</span>
+  </div>`;
 }
 
-/* ---------- CATEGORÍA (lista) ---------- */
+/* ---------- CATEGORÍA ---------- */
 function renderCat(){
   const H = heard(), P = progress(), c = catMeta(currentCat), acc = accentOf(currentCat);
   const list = catEpisodes(currentCat);
-
   if(list.length===0){
-    screen.innerHTML = `<div class="kicker" style="color:${acc}">${esc(c.name).toUpperCase()}</div>
-      <div class="center"><p>${c.emoji}<br><br>Todavía no hay nada por aquí.<br>¡Muy pronto!</p>
+    screen.innerHTML = `<div class="kicker" style="color:${acc}">${esc(c.name)}</div>
+      <div class="center"><p style="font-size:40px">${c.emoji}</p><p>Todavía no hay nada por aquí.<br>¡Muy pronto!</p>
       <button class="btn" onclick="go('home')">Volver al inicio</button></div>`;
     return;
   }
-
+  const vid = currentCat==='videos';
   const hero = list.find(e=>!H[e.id]) || list[0];
-  const cont = list.filter(e=>!H[e.id] && (P[e.id]||0)>5 && e.id!==hero.id);
-  const noOidos = list.filter(e=>!H[e.id] && e.id!==hero.id && !cont.includes(e));
-  const oidos = list.filter(e=>H[e.id]);
+  const cont = vid ? [] : list.filter(e=>!H[e.id] && (P[e.id]||0)>5 && e.id!==hero.id);
+  const rest = list.filter(e=>!H[e.id] && e.id!==hero.id && !cont.includes(e));
+  const done = list.filter(e=>H[e.id]);
+  const upName = (currentCat!=='videos');
 
-  let html = `<div class="kicker" style="color:${acc}">${esc(c.name).toUpperCase()}</div>`;
-  html += `<div class="hero" onclick="go('player','${hero.id}')">${imgTag(hero,'')}
+  let html = `<div class="kicker" style="color:${acc}">${esc(c.name)}</div>`;
+  html += `<div class="hero" onclick="go('player','${hero.id}')">${hero.image?`<img src="${hero.image}" alt="">`:''}
+    ${vid?'<div class="bigplay"><i>▶</i></div>':''}
     <div class="ov">
-      <div class="era" style="color:${c.key==='pruebas'?'#1EDCE8':'#fff'}">${esc(metaLine(hero)).toUpperCase()}</div>
-      <div class="name">${esc(hero.name)}</div>
-      <div class="title">${esc(hero.title)}</div>
-      <span class="play-pill" style="background:var(--accent)">▶ Escuchar · ${fmt(hero.duration)}</span>
+      <div class="era" style="color:${currentCat==='pruebas'?'#1EDCE8':'#fff'}">${esc(metaLine(hero))}</div>
+      <div class="name ${upName?'up display':''}">${esc(hero.name)}</div>
+      ${hero.title?`<div class="title">${esc(hero.title)}</div>`:''}
+      <span class="play-pill" style="background:var(--blue)">${vid?'▶ Ver vídeo':'▶ Escuchar'}${hero.duration?' · '+fmt(hero.duration):''}</span>
     </div></div>`;
-  if(cont.length) html += `<div class="section">Continuar</div>`+cont.map(e=>rowCard(e,H,P,acc)).join('');
-  if(noOidos.length) html += `<div class="section">${currentCat==='noticias'?'Últimas noticias':'Por escuchar'}</div>`+noOidos.map(e=>rowCard(e,H,P,acc)).join('');
-  if(oidos.length) html += `<div class="section">Ya escuchados</div>`+oidos.map(e=>rowCard(e,H,P,acc)).join('');
+  if(cont.length) html += `<div class="section display">Continuar</div>`+cont.map(e=>rowCard(e,H,P,acc)).join('');
+  if(rest.length) html += `<div class="section display">${vid?'Todos los vídeos':(currentCat==='noticias'?'Últimas noticias':'Por escuchar')}</div>`+rest.map(e=>rowCard(e,H,P,acc)).join('');
+  if(done.length) html += `<div class="section display">${vid?'Ya vistos':'Ya escuchados'}</div>`+done.map(e=>rowCard(e,H,P,acc)).join('');
   screen.innerHTML = html;
 }
-
 function rowCard(e,H,P,acc){
   const pct = e.duration ? Math.min(100,((P[e.id]||0)/e.duration)*100) : 0;
   const r = ratings()[e.id];
-  return `<div class="row" onclick="go('player','${e.id}')">${imgTag(e,'')}
+  return `<div class="row" onclick="go('player','${e.id}')">${media(e)}
     <div class="body">
       <div class="nm">${esc(e.name)}</div>
-      <div class="tt">${esc(e.title)}</div>
-      <div class="mt" style="color:${acc}">${esc(metaLine(e))} · ${fmt(e.duration)}</div>
+      ${e.title?`<div class="tt">${esc(e.title)}</div>`:''}
+      <div class="mt" style="color:${acc}">${esc(metaLine(e))}${durStr(e)}</div>
       ${r?`<div class="ministars">${'★'.repeat(r)}${'☆'.repeat(5-r)}</div>`:''}
       ${pct>1 && !H[e.id] ? `<div class="pbar-mini"><i style="width:${pct}%;background:${acc}"></i></div>`:''}
     </div>
@@ -280,14 +337,16 @@ function rowCard(e,H,P,acc){
 /* ---------- PLAYER ---------- */
 let curVoice = 'alvaro';
 function renderPlayer(){
-  const e = ep(currentId), H = heard(), c = catMeta(catOf(e)), acc = accentOf(catOf(e));
+  const e = ep(currentId);
+  if(isVideo(e)) return renderVideoPlayer(e);
+  const H = heard(), acc = accentOf(catOf(e));
   curVoice = Object.keys(e.audio)[0];
   const r = ratings()[e.id] || 0;
   screen.innerHTML = `
-    ${imgTag(e,'cover')}
-    <div class="p-era" style="color:${acc}">${esc(metaLine(e)).toUpperCase()}</div>
-    <div class="p-name">${esc(e.name)}</div>
-    <div class="p-title">${esc(e.title)}</div>
+    ${e.image?`<img class="cover" src="${e.image}" alt="">`:`<div class="cover ph" style="font-size:64px">${esc(e.name[0])}</div>`}
+    <div class="p-era">${esc(metaLine(e))}</div>
+    <div class="p-name up display">${esc(e.name)}</div>
+    ${e.title?`<div class="p-title">${esc(e.title)}</div>`:''}
     <div class="track" id="track"><i id="fill"></i></div>
     <div class="times"><span id="tcur">0:00</span><span id="tdur">${fmt(e.duration)}</span></div>
     <div class="controls">
@@ -296,9 +355,8 @@ function renderPlayer(){
       <button class="ctrl" onclick="seek(15)">15 »</button>
     </div>
     <div class="actions">
-      <button class="heardbtn" id="shareBtn" onclick="shareEp()">↗ Compartir</button>
-      <button class="heardbtn ${H[e.id]?'on':''}" id="heardbtn" onclick="toggleHeard()">
-        ${H[e.id]?'✓ Escuchado':'Marcar escuchado'}</button>
+      <button class="actbtn" id="shareBtn" onclick="shareEp()">↗ Compartir</button>
+      <button class="actbtn ${H[e.id]?'on':''}" id="heardbtn" onclick="toggleHeard()">${H[e.id]?'✓ Escuchado':'Marcar escuchado'}</button>
     </div>
     <div class="rate">
       <div class="q" id="rateq">${r?'Tu valoración':'¿Qué te ha parecido?'}</div>
@@ -306,11 +364,27 @@ function renderPlayer(){
     </div>
     ${e.source?`<a class="src-link" href="${e.source}" target="_blank" rel="noopener">Ver original en carwow.es ↗</a>`:''}
     ${e.tags?.length?`<div class="tags">${e.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`:''}
-    <button class="ghost" id="scriptBtn" onclick="toggleScript()">📄 Ver transcripción</button>
-    <div class="script" id="scriptBox" hidden>${esc(e.script)}</div>`;
+    ${e.script?`<button class="ghost" id="scriptBtn" onclick="toggleScript()">📄 Ver transcripción</button>
+    <div class="script" id="scriptBox" hidden>${esc(e.script)}</div>`:''}`;
   loadAudio(e,false);
   $('track').onclick=(ev)=>{const rc=ev.currentTarget.getBoundingClientRect();
     if(audio.duration) audio.currentTime=((ev.clientX-rc.left)/rc.width)*audio.duration;};
+}
+
+function renderVideoPlayer(e){
+  audio.pause();                       // que el audio no se solape con el vídeo
+  setHeard(e.id,1);                    // abrir el vídeo cuenta como visto
+  const vid = ytId(e);
+  screen.innerHTML = `
+    <div class="p-era" style="color:var(--red)">${esc(metaLine(e))} · Vídeo de YouTube</div>
+    <div class="p-name">${esc(e.name)}</div>
+    <div class="embed">${vid?`<iframe src="https://www.youtube.com/embed/${vid}?rel=0&playsinline=1" title="${esc(e.name)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`:'<p style="color:#fff;padding:20px">Vídeo no disponible.</p>'}</div>
+    <div class="actions">
+      <button class="actbtn" id="shareBtn" onclick="shareEp()">↗ Compartir</button>
+      <a class="actbtn" style="text-align:center;text-decoration:none;line-height:1.4" href="${e.source}" target="_blank" rel="noopener">▶ Abrir en YouTube</a>
+    </div>
+    ${e.tags?.length?`<div class="tags">${e.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`:''}`;
+  renderMini();
 }
 
 function rate(n){
@@ -320,6 +394,7 @@ function rate(n){
 }
 
 function loadAudio(e, autoplay){
+  playingId = e.id;
   const src = e.audio[curVoice];
   const full = new URL(src, location.href).href;
   if(audio.src !== full){
@@ -332,7 +407,7 @@ function loadAudio(e, autoplay){
   }
   setMediaSession(e);
   if(autoplay) audio.play();
-  syncPlayBtn();
+  syncPlayBtn(); renderMini();
 }
 function togglePlay(){ if(!audio.src){ loadAudio(ep(currentId),true); return; } audio.paused?audio.play():audio.pause(); }
 function seek(d){ if(audio.duration) audio.currentTime=Math.max(0,Math.min(audio.duration,audio.currentTime+d)); }
@@ -343,7 +418,98 @@ function toggleScript(){ const box=$('scriptBox'),btn=$('scriptBtn'); if(!box)re
 function toggleHeard(){ const id=currentId,now=!heard()[id]; setHeard(id,now);
   const b=$('heardbtn'); if(b){b.classList.toggle('on',now);b.textContent=now?'✓ Escuchado':'Marcar escuchado';} }
 
-// Aviso de instalación SOLO en iPhone/iPad (iOS no muestra el botón "Instalar" nativo)
+/* ---------- MINI-REPRODUCTOR ---------- */
+function renderMini(){
+  const m=$('mini'); if(!m) return;
+  const e = playingId ? ep(playingId) : null;
+  const onItsPlayer = (view==='player' && currentId===playingId);
+  if(!e || onItsPlayer){ m.classList.remove('show'); document.body.classList.remove('has-mini'); return; }
+  m.innerHTML = `${e.image?`<img src="${e.image}" alt="">`:''}
+    <div class="mt"><div class="mn">${esc(e.name)}</div><div class="ms">${esc(e.title||metaLine(e))}</div></div>
+    <button class="mp" onclick="event.stopPropagation();miniToggle()">${audio.paused?'▶':'❚❚'}</button>
+    <button class="mx" onclick="event.stopPropagation();miniClose()">✕</button>`;
+  m.classList.add('show'); document.body.classList.add('has-mini');
+  $('iosbar').style.display='none';
+}
+function miniToggle(){ if(!audio.src) return; audio.paused?audio.play():audio.pause(); }
+function miniClose(){ audio.pause(); audio.removeAttribute('src'); audio.load(); playingId=null; renderMini(); }
+
+function setMediaSession(e){
+  if(!('mediaSession' in navigator)) return;
+  navigator.mediaSession.metadata = new MediaMetadata({title:e.name,artist:e.title||'',album:'Carwow Audio',
+    artwork:e.image?[{src:new URL(e.image,location.href).href,sizes:'512x512',type:'image/jpeg'}]:[]});
+  navigator.mediaSession.setActionHandler('play',()=>audio.play());
+  navigator.mediaSession.setActionHandler('pause',()=>audio.pause());
+  navigator.mediaSession.setActionHandler('seekbackward',()=>seek(-15));
+  navigator.mediaSession.setActionHandler('seekforward',()=>seek(15));
+}
+
+audio.addEventListener('timeupdate',()=>{
+  if(view==='player'&&currentId===playingId){
+    const fill=$('fill'),tcur=$('tcur');
+    if(fill&&audio.duration) fill.style.width=(audio.currentTime/audio.duration*100)+'%';
+    if(tcur) tcur.textContent=fmt(audio.currentTime);
+  }
+  if(audio.duration && playingId){
+    if(Math.floor(audio.currentTime)%4===0) setProg(playingId,Math.floor(audio.currentTime));
+    if(audio.currentTime/audio.duration>0.92 && !heard()[playingId]){
+      setHeard(playingId,1);
+      const b=$('heardbtn'); if(b && currentId===playingId){b.classList.add('on');b.textContent='✓ Escuchado';}
+    }
+  }
+});
+audio.addEventListener('play',()=>{syncPlayBtn();renderMini();});
+audio.addEventListener('pause',()=>{syncPlayBtn();renderMini(); if(playingId) setProg(playingId,Math.floor(audio.currentTime));});
+audio.addEventListener('ended',()=>{ if(playingId){ setHeard(playingId,1);
+  const q=$('rateq'); if(q && currentId===playingId && !ratings()[playingId]) q.textContent='¿Qué te ha parecido? ¡Puntúalo!'; }});
+
+/* ---------- COMPARTIR ---------- */
+let toastT;
+function toast(msg){ const t=$('toast'); if(!t)return; t.textContent=msg; t.classList.add('show');
+  clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('show'),2200); }
+async function shareEp(){
+  const e = ep(currentId);
+  const url = location.origin + location.pathname + '#' + e.id;
+  const text = `${e.name}${e.title?' — '+e.title:''}\nEn Carwow Audio`;
+  if(!isVideo(e)){
+    try{
+      if(navigator.canShare){
+        const r = await fetch(e.audio[curVoice]); const blob = await r.blob();
+        const file = new File([blob], e.id+'.mp3', {type:'audio/mpeg'});
+        if(navigator.canShare({files:[file]})){ await navigator.share({files:[file], title:e.name, text}); return; }
+      }
+    }catch(err){ if(err.name==='AbortError') return; }
+  }
+  try{ if(navigator.share){ await navigator.share({title:'Carwow Audio — '+e.name, text, url:isVideo(e)?e.source:url}); return; } }
+  catch(err){ if(err.name==='AbortError') return; }
+  try{ await navigator.clipboard.writeText(isVideo(e)?e.source:url); toast('🔗 Enlace copiado'); }
+  catch(e2){ prompt('Copia el enlace:', isVideo(e)?e.source:url); }
+}
+
+/* ---------- NOTIFICACIONES ---------- */
+const notifOn = () => localStorage.getItem('cwa.notify')==='1';
+async function toggleNotif(){
+  if(notifOn()){ localStorage.setItem('cwa.notify','0'); toast('🔕 Avisos desactivados'); renderHome(); return; }
+  if(!('Notification' in window)){ toast('Tu navegador no soporta avisos'); return; }
+  const perm = await Notification.requestPermission();
+  if(perm!=='granted'){ toast('Permiso de avisos denegado'); return; }
+  localStorage.setItem('cwa.notify','1');
+  await setupPeriodicNews(true);
+  toast('🔔 Te avisaré de noticias nuevas'); renderHome();
+}
+async function setupPeriodicNews(seed){
+  try{
+    const reg = await navigator.serviceWorker.ready;
+    if(seed && reg.active) reg.active.postMessage('cwa-seed-news');
+    if('periodicSync' in reg){
+      try{ const st = await navigator.permissions.query({name:'periodic-background-sync'});
+        if(st.state!=='denied') await reg.periodicSync.register('cwa-news-check', {minInterval: 12*60*60*1000});
+      }catch(e){}
+    }
+  }catch(e){}
+}
+
+/* ---------- aviso instalar iOS ---------- */
 function maybeIosHint(){
   const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent) ||
                 (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
@@ -355,89 +521,9 @@ function maybeIosHint(){
   b.style.display = 'flex';
 }
 
-let toastT;
-function toast(msg){ const t=$('toast'); if(!t)return; t.textContent=msg; t.classList.add('show');
-  clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('show'),2200); }
-
-// Compartir: intenta enviar el propio MP3; si el sistema no lo permite, comparte el enlace.
-async function shareEp(){
-  const e = ep(currentId);
-  const url = location.origin + location.pathname + '#' + e.id;
-  const text = `${e.name} — ${e.title}\nEscúchalo en Carwow Audio`;
-  try{
-    if(navigator.canShare){
-      const r = await fetch(e.audio[curVoice]); const blob = await r.blob();
-      const file = new File([blob], e.id+'.mp3', {type:'audio/mpeg'});
-      if(navigator.canShare({files:[file]})){
-        await navigator.share({files:[file], title:e.name, text}); return;
-      }
-    }
-  }catch(err){ if(err.name==='AbortError') return; }
-  try{
-    if(navigator.share){ await navigator.share({title:'Carwow Audio — '+e.name, text, url}); return; }
-  }catch(err){ if(err.name==='AbortError') return; }
-  try{ await navigator.clipboard.writeText(url); toast('🔗 Enlace copiado'); }
-  catch(e2){ prompt('Copia el enlace:', url); }
-}
-
-/* ---------- NOTIFICACIONES de noticias ---------- */
-const notifOn = () => localStorage.getItem('cwa.notify')==='1';
-async function toggleNotif(){
-  if(notifOn()){ localStorage.setItem('cwa.notify','0'); toast('🔕 Avisos desactivados'); renderHome(); return; }
-  if(!('Notification' in window)){ toast('Tu navegador no soporta avisos'); return; }
-  const perm = await Notification.requestPermission();
-  if(perm!=='granted'){ toast('Permiso de avisos denegado'); return; }
-  localStorage.setItem('cwa.notify','1');
-  await setupPeriodicNews(true);
-  toast('🔔 Te avisaré de noticias nuevas');
-  renderHome();
-}
-async function setupPeriodicNews(seed){
-  try{
-    const reg = await navigator.serviceWorker.ready;
-    if(seed && reg.active) reg.active.postMessage('cwa-seed-news'); // no avisar de las ya existentes
-    if('periodicSync' in reg){
-      try{
-        const st = await navigator.permissions.query({name:'periodic-background-sync'});
-        if(st.state!=='denied') await reg.periodicSync.register('cwa-news-check', {minInterval: 12*60*60*1000});
-      }catch(e){}
-    }
-  }catch(e){}
-}
-
-function setMediaSession(e){
-  if(!('mediaSession' in navigator)) return;
-  navigator.mediaSession.metadata = new MediaMetadata({title:e.name,artist:e.title,album:'Carwow Audio',
-    artwork:e.image?[{src:new URL(e.image,location.href).href,sizes:'512x512',type:'image/jpeg'}]:[]});
-  navigator.mediaSession.setActionHandler('play',()=>audio.play());
-  navigator.mediaSession.setActionHandler('pause',()=>audio.pause());
-  navigator.mediaSession.setActionHandler('seekbackward',()=>seek(-15));
-  navigator.mediaSession.setActionHandler('seekforward',()=>seek(15));
-}
-
-audio.addEventListener('timeupdate',()=>{
-  if(view!=='player'||!currentId) return;
-  const fill=$('fill'),tcur=$('tcur');
-  if(fill&&audio.duration) fill.style.width=(audio.currentTime/audio.duration*100)+'%';
-  if(tcur) tcur.textContent=fmt(audio.currentTime);
-  if(audio.duration){
-    if(Math.floor(audio.currentTime)%4===0) setProg(currentId,Math.floor(audio.currentTime));
-    if(audio.currentTime/audio.duration>0.92 && !heard()[currentId]){
-      setHeard(currentId,1);
-      const b=$('heardbtn'); if(b){b.classList.add('on');b.textContent='✓ Escuchado';}
-    }
-  }
-});
-audio.addEventListener('play',syncPlayBtn);
-audio.addEventListener('pause',()=>{syncPlayBtn(); if(currentId) setProg(currentId,Math.floor(audio.currentTime));});
-audio.addEventListener('ended',()=>{ if(currentId){ setHeard(currentId,1);
-  const q=$('rateq'); if(q && !ratings()[currentId]) q.textContent='¿Qué te ha parecido? ¡Puntúalo!'; }});
-
 let deferred;
 window.addEventListener('beforeinstallprompt',(e)=>{e.preventDefault();deferred=e;$('install').style.display='inline';});
 $('install').onclick=async()=>{ if(deferred){deferred.prompt();deferred=null;$('install').style.display='none';} };
-
-// Enlaces compartidos (#id) abiertos con la app ya cargada
 window.addEventListener('hashchange',()=>{ const id=location.hash.slice(1); if(M && id && ep(id)) go('player',id); });
 
 init();

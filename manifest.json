@@ -5,13 +5,9 @@
       "label": "Álvaro",
       "desc": "Grave y envolvente"
     },
-    "elvira": {
-      "label": "Elvira",
-      "desc": "Natural y cercana"
-    },
-    "ximena": {
-      "label": "Ximena",
-      "desc": "Clara y juvenil"
+    "edge-alvaro": {
+      "label": "Álvaro (Edge)",
+      "desc": "Respaldo gratuito"
     }
   },
   "categorias": {
@@ -35,7 +31,7 @@
       "youtube": "",
       "fecha": "",
       "order": 1,
-      "duration": 249,
+      "duration": 202,
       "image": "images/prueba-toyota-corolla.jpg",
       "audio": {
         "alvaro": "audio/prueba-toyota-corolla_alvaro.mp3"
@@ -57,7 +53,7 @@
       "youtube": "",
       "fecha": "",
       "order": 2,
-      "duration": 224,
+      "duration": 204,
       "image": "images/prueba-dacia-sandero.jpg",
       "audio": {
         "alvaro": "audio/prueba-dacia-sandero_alvaro.mp3"
@@ -79,7 +75,7 @@
       "youtube": "",
       "fecha": "",
       "order": 3,
-      "duration": 227,
+      "duration": 194,
       "image": "images/prueba-hyundai-tucson.jpg",
       "audio": {
         "alvaro": "audio/prueba-hyundai-tucson_alvaro.mp3"
@@ -101,7 +97,7 @@
       "youtube": "",
       "fecha": "",
       "order": 4,
-      "duration": 226,
+      "duration": 216,
       "image": "images/prueba-nissan-qashqai.jpg",
       "audio": {
         "alvaro": "audio/prueba-nissan-qashqai_alvaro.mp3"
@@ -123,7 +119,7 @@
       "youtube": "",
       "fecha": "",
       "order": 5,
-      "duration": 232,
+      "duration": 214,
       "image": "images/prueba-toyota-rav4.jpg",
       "audio": {
         "alvaro": "audio/prueba-toyota-rav4_alvaro.mp3"
@@ -144,7 +140,7 @@
       "youtube": "",
       "fecha": "2026-06-11",
       "order": 7052,
-      "duration": 126,
+      "duration": 108,
       "image": "images/noticia-7052.jpg",
       "audio": {
         "alvaro": "audio/noticia-7052_alvaro.mp3"
@@ -166,7 +162,7 @@
       "youtube": "",
       "fecha": "2026-06-11",
       "order": 7581,
-      "duration": 105,
+      "duration": 94,
       "image": "images/noticia-7581.jpg",
       "audio": {
         "alvaro": "audio/noticia-7581_alvaro.mp3"
@@ -187,7 +183,7 @@
       "youtube": "",
       "fecha": "2026-06-11",
       "order": 7582,
-      "duration": 105,
+      "duration": 99,
       "image": "images/noticia-7582.jpg",
       "audio": {
         "alvaro": "audio/noticia-7582_alvaro.mp3"
@@ -208,7 +204,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 6314,
-      "duration": 105,
+      "duration": 88,
       "image": "images/noticia-6314.jpg",
       "audio": {
         "alvaro": "audio/noticia-6314_alvaro.mp3"
@@ -229,7 +225,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7505,
-      "duration": 105,
+      "duration": 93,
       "image": "images/noticia-7505.jpg",
       "audio": {
         "alvaro": "audio/noticia-7505_alvaro.mp3"
@@ -250,7 +246,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7570,
-      "duration": 109,
+      "duration": 83,
       "image": "images/noticia-7570.jpg",
       "audio": {
         "alvaro": "audio/noticia-7570_alvaro.mp3"
@@ -271,7 +267,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7571,
-      "duration": 87,
+      "duration": 73,
       "image": "images/noticia-7571.jpg",
       "audio": {
         "alvaro": "audio/noticia-7571_alvaro.mp3"
@@ -292,7 +288,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7572,
-      "duration": 111,
+      "duration": 101,
       "image": "images/noticia-7572.jpg",
       "audio": {
         "alvaro": "audio/noticia-7572_alvaro.mp3"
@@ -313,7 +309,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7574,
-      "duration": 109,
+      "duration": 93,
       "image": "images/noticia-7574.jpg",
       "audio": {
         "alvaro": "audio/noticia-7574_alvaro.mp3"
@@ -334,7 +330,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7575,
-      "duration": 111,
+      "duration": 101,
       "image": "images/noticia-7575.jpg",
       "audio": {
         "alvaro": "audio/noticia-7575_alvaro.mp3"
@@ -355,7 +351,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7576,
-      "duration": 118,
+      "duration": 108,
       "image": "images/noticia-7576.jpg",
       "audio": {
         "alvaro": "audio/noticia-7576_alvaro.mp3"
@@ -376,7 +372,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7577,
-      "duration": 99,
+      "duration": 93,
       "image": "images/noticia-7577.jpg",
       "audio": {
         "alvaro": "audio/noticia-7577_alvaro.mp3"
@@ -397,7 +393,7 @@
       "youtube": "",
       "fecha": "2026-06-10",
       "order": 7579,
-      "duration": 115,
+      "duration": 101,
       "image": "images/noticia-7579.jpg",
       "audio": {
         "alvaro": "audio/noticia-7579_alvaro.mp3"
@@ -418,7 +414,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7465,
-      "duration": 126,
+      "duration": 112,
       "image": "images/noticia-7465.jpg",
       "audio": {
         "alvaro": "audio/noticia-7465_alvaro.mp3"
@@ -439,7 +435,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7560,
-      "duration": 112,
+      "duration": 106,
       "image": "images/noticia-7560.jpg",
       "audio": {
         "alvaro": "audio/noticia-7560_alvaro.mp3"
@@ -460,7 +456,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7561,
-      "duration": 121,
+      "duration": 109,
       "image": "images/noticia-7561.jpg",
       "audio": {
         "alvaro": "audio/noticia-7561_alvaro.mp3"
@@ -481,7 +477,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7564,
-      "duration": 109,
+      "duration": 102,
       "image": "images/noticia-7564.jpg",
       "audio": {
         "alvaro": "audio/noticia-7564_alvaro.mp3"
@@ -502,7 +498,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7565,
-      "duration": 126,
+      "duration": 99,
       "image": "images/noticia-7565.jpg",
       "audio": {
         "alvaro": "audio/noticia-7565_alvaro.mp3"
@@ -523,7 +519,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7566,
-      "duration": 110,
+      "duration": 97,
       "image": "images/noticia-7566.jpg",
       "audio": {
         "alvaro": "audio/noticia-7566_alvaro.mp3"
@@ -544,7 +540,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7567,
-      "duration": 101,
+      "duration": 97,
       "image": "images/noticia-7567.jpg",
       "audio": {
         "alvaro": "audio/noticia-7567_alvaro.mp3"
@@ -565,7 +561,7 @@
       "youtube": "",
       "fecha": "2026-06-09",
       "order": 7569,
-      "duration": 118,
+      "duration": 106,
       "image": "images/noticia-7569.jpg",
       "audio": {
         "alvaro": "audio/noticia-7569_alvaro.mp3"
@@ -586,7 +582,7 @@
       "youtube": "",
       "fecha": "2026-06-07",
       "order": 7554,
-      "duration": 108,
+      "duration": 117,
       "image": "images/noticia-7554.jpg",
       "audio": {
         "alvaro": "audio/noticia-7554_alvaro.mp3"
@@ -608,7 +604,7 @@
       "youtube": "",
       "fecha": "2026-06-07",
       "order": 7557,
-      "duration": 106,
+      "duration": 91,
       "image": "images/noticia-7557.jpg",
       "audio": {
         "alvaro": "audio/noticia-7557_alvaro.mp3"
@@ -629,7 +625,7 @@
       "youtube": "",
       "fecha": "2026-06-05",
       "order": 7550,
-      "duration": 106,
+      "duration": 90,
       "image": "images/noticia-7550.jpg",
       "audio": {
         "alvaro": "audio/noticia-7550_alvaro.mp3"
@@ -650,7 +646,7 @@
       "youtube": "",
       "fecha": "2026-06-05",
       "order": 7552,
-      "duration": 110,
+      "duration": 96,
       "image": "images/noticia-7552.jpg",
       "audio": {
         "alvaro": "audio/noticia-7552_alvaro.mp3"
@@ -671,7 +667,7 @@
       "youtube": "",
       "fecha": "2026-06-05",
       "order": 7553,
-      "duration": 106,
+      "duration": 97,
       "image": "images/noticia-7553.jpg",
       "audio": {
         "alvaro": "audio/noticia-7553_alvaro.mp3"

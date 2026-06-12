@@ -4,9 +4,9 @@
     <title>Carwow · Noticias del motor</title>
     <link>https://www.carwow.es/editorial/noticias</link>
     <language>es-ES</language>
-    <description>Las novedades del mundo del motor que de verdad importan, en píldoras de menos de dos minutos. Lanzamientos, coches eléctricos, tendencias de la industria y curiosidades del automóvil, contadas de forma cercana por Carwow España.</description>
+    <description>Las novedades del mundo del motor que de verdad importan, en píldoras de menos de dos minutos. Lanzamientos, coches eléctricos, tendencias de la industria y curiosidades del automóvil, contadas de forma cercana por Carwow España. Más en https://www.carwow.es/editorial/noticias</description>
     <itunes:author>Carwow España</itunes:author>
-    <itunes:summary>Las novedades del mundo del motor que de verdad importan, en píldoras de menos de dos minutos. Lanzamientos, coches eléctricos, tendencias de la industria y curiosidades del automóvil, contadas de forma cercana por Carwow España.</itunes:summary>
+    <itunes:summary>Las novedades del mundo del motor que de verdad importan, en píldoras de menos de dos minutos. Lanzamientos, coches eléctricos, tendencias de la industria y curiosidades del automóvil, contadas de forma cercana por Carwow España. Más en https://www.carwow.es/editorial/noticias</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/podcast-cover.jpg"/>
@@ -16,30 +16,45 @@
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Mat Watson prueba el nuevo Toyota Celica</title>
-      <description>El mítico deportivo vuelve y nuestro compañero lo ha conducido en Japón</description>
-      <itunes:summary>El mítico deportivo vuelve y nuestro compañero lo ha conducido en Japón</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7584_alvaro.mp3" length="1563693" type="audio/mpeg"/>
+      <description>El mítico deportivo vuelve y nuestro compañero lo ha conducido en Japón
+
+Noticia original: https://www.carwow.es/toyota/noticias/7584/nuevo-toyota-celica-2028-motor-central-400cv-mat-watson</description>
+      <itunes:summary>El mítico deportivo vuelve y nuestro compañero lo ha conducido en Japón
+
+Noticia original: https://www.carwow.es/toyota/noticias/7584/nuevo-toyota-celica-2028-motor-central-400cv-mat-watson</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7584.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7584_alvaro.mp3" length="1437741" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7584</guid>
       <pubDate>Fri, 12 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>97</itunes:duration>
+      <itunes:duration>89</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/toyota/noticias/7584/nuevo-toyota-celica-2028-motor-central-400cv-mat-watson</link>
     </item>
     <item>
       <title>Dacia Jogger: 7 plazas por menos de 32.500 €</title>
-      <description>El premio Marca del Año 2026 en Carwow se fabrica en España y es un chollazo</description>
-      <itunes:summary>El premio Marca del Año 2026 en Carwow se fabrica en España y es un chollazo</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7583_alvaro.mp3" length="1533741" type="audio/mpeg"/>
+      <description>El premio Marca del Año 2026 en Carwow se fabrica en España y es un chollazo
+
+Noticia original: https://www.carwow.es/ebro/s800/noticias/7583/oferta-suv-7-plazas-fabricado-espana-32052-euros-carwow</description>
+      <itunes:summary>El premio Marca del Año 2026 en Carwow se fabrica en España y es un chollazo
+
+Noticia original: https://www.carwow.es/ebro/s800/noticias/7583/oferta-suv-7-plazas-fabricado-espana-32052-euros-carwow</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7583.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7583_alvaro.mp3" length="1623981" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7583</guid>
       <pubDate>Fri, 12 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>95</itunes:duration>
+      <itunes:duration>101</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/ebro/s800/noticias/7583/oferta-suv-7-plazas-fabricado-espana-32052-euros-carwow</link>
     </item>
     <item>
       <title>Hyundai Inster vs Citroën e-C3: duelo eléctrico</title>
-      <description>¿Merece la pena pagar siete mil euros más por el coreano?</description>
-      <itunes:summary>¿Merece la pena pagar siete mil euros más por el coreano?</itunes:summary>
+      <description>¿Merece la pena pagar siete mil euros más por el coreano?
+
+Noticia original: https://www.carwow.es/noticias/7581/hyundai-inster-vs-citroen-ec3-comparativa</description>
+      <itunes:summary>¿Merece la pena pagar siete mil euros más por el coreano?
+
+Noticia original: https://www.carwow.es/noticias/7581/hyundai-inster-vs-citroen-ec3-comparativa</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7581.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7581_alvaro.mp3" length="1514541" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7581</guid>
       <pubDate>Thu, 11 Jun 2026 08:00:00 +0000</pubDate>
@@ -49,19 +64,29 @@
     </item>
     <item>
       <title>SUV de 7 plazas con ECO por 23.000 euros</title>
-      <description>Existe, es familiar, híbrido y cuesta menos de lo que imaginas</description>
-      <itunes:summary>Existe, es familiar, híbrido y cuesta menos de lo que imaginas</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7579_alvaro.mp3" length="1619373" type="audio/mpeg"/>
+      <description>Existe, es familiar, híbrido y cuesta menos de lo que imaginas
+
+Noticia original: https://www.carwow.es/noticias/7579/oferta-suv-7-plazas-eco-22407-euros</description>
+      <itunes:summary>Existe, es familiar, híbrido y cuesta menos de lo que imaginas
+
+Noticia original: https://www.carwow.es/noticias/7579/oferta-suv-7-plazas-eco-22407-euros</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7579.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7579_alvaro.mp3" length="1605549" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7579</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>101</itunes:duration>
+      <itunes:duration>100</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7579/oferta-suv-7-plazas-eco-22407-euros</link>
     </item>
     <item>
       <title>Multas según tu nómina: la DGT lo estudia</title>
-      <description>¿Justas o abusivas? El debate que viene</description>
-      <itunes:summary>¿Justas o abusivas? El debate que viene</itunes:summary>
+      <description>¿Justas o abusivas? El debate que viene
+
+Noticia original: https://www.carwow.es/noticias/7577/dgt-multas-trafico-segun-renta</description>
+      <itunes:summary>¿Justas o abusivas? El debate que viene
+
+Noticia original: https://www.carwow.es/noticias/7577/dgt-multas-trafico-segun-renta</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7577.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7577_alvaro.mp3" length="1503789" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7577</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
@@ -71,9 +96,14 @@
     </item>
     <item>
       <title>Volkswagen sin coupé deportivo: vuelve el Corrado</title>
-      <description>Treinta años después, así podría ser el regreso de una leyenda compacta</description>
-      <itunes:summary>Treinta años después, así podría ser el regreso de una leyenda compacta</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7576_alvaro.mp3" length="1728429" type="audio/mpeg"/>
+      <description>Treinta años después, así podría ser el regreso de una leyenda compacta
+
+Noticia original: https://www.carwow.es/volkswagen/noticias/7576/volkswagen-corrado-2026-render-diseno-david-diez</description>
+      <itunes:summary>Treinta años después, así podría ser el regreso de una leyenda compacta
+
+Noticia original: https://www.carwow.es/volkswagen/noticias/7576/volkswagen-corrado-2026-render-diseno-david-diez</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7576.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7576_alvaro.mp3" length="1734573" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7576</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
       <itunes:duration>108</itunes:duration>
@@ -82,19 +112,29 @@
     </item>
     <item>
       <title>Alfa Romeo se salva con un SUV</title>
-      <description>El Tonale vende más que todos los deportivos juntos y divide a los fans</description>
-      <itunes:summary>El Tonale vende más que todos los deportivos juntos y divide a los fans</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7575_alvaro.mp3" length="1626669" type="audio/mpeg"/>
+      <description>El Tonale vende más que todos los deportivos juntos y divide a los fans
+
+Noticia original: https://www.carwow.es/noticias/7575/futuro-alfa-romeo-modelos-stellantis-opinion-mario-garces</description>
+      <itunes:summary>El Tonale vende más que todos los deportivos juntos y divide a los fans
+
+Noticia original: https://www.carwow.es/noticias/7575/futuro-alfa-romeo-modelos-stellantis-opinion-mario-garces</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7575.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7575_alvaro.mp3" length="1481133" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7575</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>101</itunes:duration>
+      <itunes:duration>92</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7575/futuro-alfa-romeo-modelos-stellantis-opinion-mario-garces</link>
     </item>
     <item>
       <title>Porsche presenta un coche de Toy Story</title>
-      <description>El 911 Sally Special rinde homenaje al Carrera de la película de Pixar</description>
-      <itunes:summary>El 911 Sally Special rinde homenaje al Carrera de la película de Pixar</itunes:summary>
+      <description>El 911 Sally Special rinde homenaje al Carrera de la película de Pixar
+
+Noticia original: https://www.carwow.es/porsche/noticias/7572/porsche-911-toy-story-5-woody-buzz-jessie</description>
+      <itunes:summary>El 911 Sally Special rinde homenaje al Carrera de la película de Pixar
+
+Noticia original: https://www.carwow.es/porsche/noticias/7572/porsche-911-toy-story-5-woody-buzz-jessie</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7572.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7572_alvaro.mp3" length="1625901" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7572</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
@@ -104,8 +144,13 @@
     </item>
     <item>
       <title>BYD híbrido enchufable: mil kilómetros por 19.000 €</title>
-      <description>La marca china promete autonomía descomunal a precio de utilitario</description>
-      <itunes:summary>La marca china promete autonomía descomunal a precio de utilitario</itunes:summary>
+      <description>La marca china promete autonomía descomunal a precio de utilitario
+
+Noticia original: https://www.carwow.es/byd/dolphin/noticias/7505/byd-dolphin-g-dmi-hibrido-enchufable-1000-km-autonomia-europa</description>
+      <itunes:summary>La marca china promete autonomía descomunal a precio de utilitario
+
+Noticia original: https://www.carwow.es/byd/dolphin/noticias/7505/byd-dolphin-g-dmi-hibrido-enchufable-1000-km-autonomia-europa</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7505.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7505_alvaro.mp3" length="1496493" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7505</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
@@ -115,30 +160,45 @@
     </item>
     <item>
       <title>Monovolumen chino que carga en 5 minutos</title>
-      <description>Siete plazas de lujo y batería lista en menos que un café</description>
-      <itunes:summary>Siete plazas de lujo y batería lista en menos que un café</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7569_alvaro.mp3" length="1703853" type="audio/mpeg"/>
+      <description>Siete plazas de lujo y batería lista en menos que un café
+
+Noticia original: https://www.carwow.es/noticias/7569/denza-d9-dmi-precio-caracteristicas</description>
+      <itunes:summary>Siete plazas de lujo y batería lista en menos que un café
+
+Noticia original: https://www.carwow.es/noticias/7569/denza-d9-dmi-precio-caracteristicas</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7569.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7569_alvaro.mp3" length="1862061" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7569</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>106</itunes:duration>
+      <itunes:duration>116</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7569/denza-d9-dmi-precio-caracteristicas</link>
     </item>
     <item>
       <title>Audi Q7: veinte años después del primer SUV</title>
-      <description>Del Q7 original al más tecnológico que ha hecho Audi</description>
-      <itunes:summary>Del Q7 original al más tecnológico que ha hecho Audi</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7567_alvaro.mp3" length="1565229" type="audio/mpeg"/>
+      <description>Del Q7 original al más tecnológico que ha hecho Audi
+
+Noticia original: https://www.carwow.es/audi/q7/noticias/7567/nuevo-audi-q7-2026-precio-lanzamiento-medidas</description>
+      <itunes:summary>Del Q7 original al más tecnológico que ha hecho Audi
+
+Noticia original: https://www.carwow.es/audi/q7/noticias/7567/nuevo-audi-q7-2026-precio-lanzamiento-medidas</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7567.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7567_alvaro.mp3" length="1443501" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7567</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>97</itunes:duration>
+      <itunes:duration>90</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/audi/q7/noticias/7567/nuevo-audi-q7-2026-precio-lanzamiento-medidas</link>
     </item>
     <item>
       <title>Toyota desconfía de los eléctricos puros</title>
-      <description>El presidente de Toyota explica a Mat Watson por qué aún no apuesta todo al coche eléctrico</description>
-      <itunes:summary>El presidente de Toyota explica a Mat Watson por qué aún no apuesta todo al coche eléctrico</itunes:summary>
+      <description>El presidente de Toyota explica a Mat Watson por qué aún no apuesta todo al coche eléctrico
+
+Noticia original: https://www.carwow.es/toyota/noticias/7566/toyota-akio-toyoda-miedo-coches-electricos</description>
+      <itunes:summary>El presidente de Toyota explica a Mat Watson por qué aún no apuesta todo al coche eléctrico
+
+Noticia original: https://www.carwow.es/toyota/noticias/7566/toyota-akio-toyoda-miedo-coches-electricos</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7566.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7566_alvaro.mp3" length="1557933" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7566</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
@@ -148,30 +208,45 @@
     </item>
     <item>
       <title>Kia Niro renovado: pantalla nueva pero sin híbrido</title>
-      <description>Más tecnología y seguridad, pero Kia elimina la versión que más sentido tenía</description>
-      <itunes:summary>Más tecnología y seguridad, pero Kia elimina la versión que más sentido tenía</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7565_alvaro.mp3" length="1588269" type="audio/mpeg"/>
+      <description>Más tecnología y seguridad, pero Kia elimina la versión que más sentido tenía
+
+Noticia original: https://www.carwow.es/kai/niro/noticias/7565/nuevo-kia-niro-2026-hibrido-precio-lanzamiento-medidas</description>
+      <itunes:summary>Más tecnología y seguridad, pero Kia elimina la versión que más sentido tenía
+
+Noticia original: https://www.carwow.es/kai/niro/noticias/7565/nuevo-kia-niro-2026-hibrido-precio-lanzamiento-medidas</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7565.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7565_alvaro.mp3" length="1704621" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7565</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>99</itunes:duration>
+      <itunes:duration>106</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/kai/niro/noticias/7565/nuevo-kia-niro-2026-hibrido-precio-lanzamiento-medidas</link>
     </item>
     <item>
       <title>SUV híbrido japonés: menos de 27.000 €</title>
-      <description>Uno de los más vendidos en Europa consume menos de 5 litros</description>
-      <itunes:summary>Uno de los más vendidos en Europa consume menos de 5 litros</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7564_alvaro.mp3" length="1635501" type="audio/mpeg"/>
+      <description>Uno de los más vendidos en Europa consume menos de 5 litros
+
+Noticia original: https://www.carwow.es/toyota/yaris-cross/noticias/7564/oferta-suv-hibrido-26511-euros</description>
+      <itunes:summary>Uno de los más vendidos en Europa consume menos de 5 litros
+
+Noticia original: https://www.carwow.es/toyota/yaris-cross/noticias/7564/oferta-suv-hibrido-26511-euros</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7564.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7564_alvaro.mp3" length="1574061" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7564</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>102</itunes:duration>
+      <itunes:duration>98</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/toyota/yaris-cross/noticias/7564/oferta-suv-hibrido-26511-euros</link>
     </item>
     <item>
       <title>Golf GTI: 50 años perdiendo chispa</title>
-      <description>Cómo el compacto deportivo más famoso se volvió demasiado bueno para ser divertido</description>
-      <itunes:summary>Cómo el compacto deportivo más famoso se volvió demasiado bueno para ser divertido</itunes:summary>
+      <description>Cómo el compacto deportivo más famoso se volvió demasiado bueno para ser divertido
+
+Noticia original: https://www.carwow.es/noticias/7561/por-que-volkswagen-golf-gti-ha-perdido-su-esencia-opinion-mario-garces</description>
+      <itunes:summary>Cómo el compacto deportivo más famoso se volvió demasiado bueno para ser divertido
+
+Noticia original: https://www.carwow.es/noticias/7561/por-que-volkswagen-golf-gti-ha-perdido-su-esencia-opinion-mario-garces</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7561.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7561_alvaro.mp3" length="1759533" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7561</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
@@ -181,8 +256,13 @@
     </item>
     <item>
       <title>El Papamóvil blindado de 400.000 euros</title>
-      <description>Un atentado en 1981 cambió para siempre los coches del Papa</description>
-      <itunes:summary>Un atentado en 1981 cambió para siempre los coches del Papa</itunes:summary>
+      <description>Un atentado en 1981 cambió para siempre los coches del Papa
+
+Noticia original: https://www.carwow.es/noticias/7560/papamovil-historia-los-modelos-leon-xiv</description>
+      <itunes:summary>Un atentado en 1981 cambió para siempre los coches del Papa
+
+Noticia original: https://www.carwow.es/noticias/7560/papamovil-historia-los-modelos-leon-xiv</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7560.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7560_alvaro.mp3" length="1701549" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7560</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
@@ -192,8 +272,13 @@
     </item>
     <item>
       <title>AMG GT eléctrico: precio oficial y sonido V8 falso</title>
-      <description>Mercedes ya vende su deportivo eléctrico que imita rugidos de gasolina</description>
-      <itunes:summary>Mercedes ya vende su deportivo eléctrico que imita rugidos de gasolina</itunes:summary>
+      <description>Mercedes ya vende su deportivo eléctrico que imita rugidos de gasolina
+
+Noticia original: https://www.carwow.es/mercedes/noticias/7465/mercedes-amg-gt-4-puertas-coupe-electrico-mas-rapido</description>
+      <itunes:summary>Mercedes ya vende su deportivo eléctrico que imita rugidos de gasolina
+
+Noticia original: https://www.carwow.es/mercedes/noticias/7465/mercedes-amg-gt-4-puertas-coupe-electrico-mas-rapido</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7465.jpg"/>
       <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7465_alvaro.mp3" length="1795629" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7465</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
@@ -203,23 +288,33 @@
     </item>
     <item>
       <title>El Multipla acabó en el MoMA de arte</title>
-      <description>¿Repetirá el Ferrari Purosangue Luce la jugada del coche más feo del mundo?</description>
-      <itunes:summary>¿Repetirá el Ferrari Purosangue Luce la jugada del coche más feo del mundo?</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7554_alvaro.mp3" length="1882413" type="audio/mpeg"/>
+      <description>¿Repetirá el Ferrari Purosangue Luce la jugada del coche más feo del mundo?
+
+Noticia original: https://www.carwow.es/fiat/noticias/7554/historia-fiat-multipla-coche-mas-feo</description>
+      <itunes:summary>¿Repetirá el Ferrari Purosangue Luce la jugada del coche más feo del mundo?
+
+Noticia original: https://www.carwow.es/fiat/noticias/7554/historia-fiat-multipla-coche-mas-feo</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7554.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7554_alvaro.mp3" length="1592109" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7554</guid>
       <pubDate>Sun, 07 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>117</itunes:duration>
+      <itunes:duration>99</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/fiat/noticias/7554/historia-fiat-multipla-coche-mas-feo</link>
     </item>
     <item>
       <title>Vuelven los 4x4 puros: Santana, Terrano, Galloper</title>
-      <description>Los todoterreno de verdad resucitan cuando parecían olvidados</description>
-      <itunes:summary>Los todoterreno de verdad resucitan cuando parecían olvidados</itunes:summary>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7553_alvaro.mp3" length="1558701" type="audio/mpeg"/>
+      <description>Los todoterreno de verdad resucitan cuando parecían olvidados
+
+Noticia original: https://www.carwow.es/noticias/7553/galloper-vuelve-espana-2026-modelos-precio</description>
+      <itunes:summary>Los todoterreno de verdad resucitan cuando parecían olvidados
+
+Noticia original: https://www.carwow.es/noticias/7553/galloper-vuelve-espana-2026-modelos-precio</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7553.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7553_alvaro.mp3" length="1617453" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7553</guid>
       <pubDate>Fri, 05 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>97</itunes:duration>
+      <itunes:duration>101</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7553/galloper-vuelve-espana-2026-modelos-precio</link>
     </item>

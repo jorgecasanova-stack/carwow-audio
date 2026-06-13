@@ -78,7 +78,7 @@
       "podcast": "",
       "fecha": "",
       "order": 3,
-      "duration": 206,
+      "duration": 204,
       "image": "images/prueba-hyundai-tucson.jpg",
       "audio": {
         "alvaro": "audio/prueba-hyundai-tucson_alvaro.mp3"
@@ -101,7 +101,7 @@
       "podcast": "",
       "fecha": "",
       "order": 4,
-      "duration": 213,
+      "duration": 198,
       "image": "images/prueba-nissan-qashqai.jpg",
       "audio": {
         "alvaro": "audio/prueba-nissan-qashqai_alvaro.mp3"
@@ -124,7 +124,7 @@
       "podcast": "",
       "fecha": "",
       "order": 5,
-      "duration": 207,
+      "duration": 195,
       "image": "images/prueba-toyota-rav4.jpg",
       "audio": {
         "alvaro": "audio/prueba-toyota-rav4_alvaro.mp3"
@@ -168,7 +168,7 @@
       "podcast": "true",
       "fecha": "2026-06-13",
       "order": 7587,
-      "duration": 90,
+      "duration": 99,
       "image": "images/noticia-7587.jpg",
       "audio": {
         "alvaro": "audio/noticia-7587_alvaro.mp3"
@@ -190,7 +190,7 @@
       "podcast": "",
       "fecha": "2026-06-12",
       "order": 7583,
-      "duration": 95,
+      "duration": 97,
       "image": "images/noticia-7583.jpg",
       "audio": {
         "alvaro": "audio/noticia-7583_alvaro.mp3"
@@ -212,7 +212,7 @@
       "podcast": "",
       "fecha": "2026-06-12",
       "order": 7584,
-      "duration": 94,
+      "duration": 104,
       "image": "images/noticia-7584.jpg",
       "audio": {
         "alvaro": "audio/noticia-7584_alvaro.mp3"
@@ -234,7 +234,7 @@
       "podcast": "",
       "fecha": "2026-06-11",
       "order": 7052,
-      "duration": 106,
+      "duration": 97,
       "image": "images/noticia-7052.jpg",
       "audio": {
         "alvaro": "audio/noticia-7052_alvaro.mp3"
@@ -345,7 +345,7 @@
       "podcast": "",
       "fecha": "2026-06-10",
       "order": 7570,
-      "duration": 89,
+      "duration": 94,
       "image": "images/noticia-7570.jpg",
       "audio": {
         "alvaro": "audio/noticia-7570_alvaro.mp3"
@@ -367,7 +367,7 @@
       "podcast": "",
       "fecha": "2026-06-10",
       "order": 7571,
-      "duration": 75,
+      "duration": 72,
       "image": "images/noticia-7571.jpg",
       "audio": {
         "alvaro": "audio/noticia-7571_alvaro.mp3"
@@ -433,7 +433,7 @@
       "podcast": "",
       "fecha": "2026-06-10",
       "order": 7575,
-      "duration": 93,
+      "duration": 98,
       "image": "images/noticia-7575.jpg",
       "audio": {
         "alvaro": "audio/noticia-7575_alvaro.mp3"
@@ -455,7 +455,7 @@
       "podcast": "",
       "fecha": "2026-06-10",
       "order": 7576,
-      "duration": 110,
+      "duration": 111,
       "image": "images/noticia-7576.jpg",
       "audio": {
         "alvaro": "audio/noticia-7576_alvaro.mp3"
@@ -587,7 +587,7 @@
       "podcast": "",
       "fecha": "2026-06-09",
       "order": 7564,
-      "duration": 98,
+      "duration": 93,
       "image": "images/noticia-7564.jpg",
       "audio": {
         "alvaro": "audio/noticia-7564_alvaro.mp3"
@@ -609,7 +609,7 @@
       "podcast": "",
       "fecha": "2026-06-09",
       "order": 7565,
-      "duration": 110,
+      "duration": 114,
       "image": "images/noticia-7565.jpg",
       "audio": {
         "alvaro": "audio/noticia-7565_alvaro.mp3"
@@ -653,7 +653,7 @@
       "podcast": "",
       "fecha": "2026-06-09",
       "order": 7567,
-      "duration": 101,
+      "duration": 96,
       "image": "images/noticia-7567.jpg",
       "audio": {
         "alvaro": "audio/noticia-7567_alvaro.mp3"
@@ -675,7 +675,7 @@
       "podcast": "",
       "fecha": "2026-06-09",
       "order": 7569,
-      "duration": 112,
+      "duration": 115,
       "image": "images/noticia-7569.jpg",
       "audio": {
         "alvaro": "audio/noticia-7569_alvaro.mp3"
@@ -697,7 +697,7 @@
       "podcast": "",
       "fecha": "2026-06-07",
       "order": 7554,
-      "duration": 88,
+      "duration": 97,
       "image": "images/noticia-7554.jpg",
       "audio": {
         "alvaro": "audio/noticia-7554_alvaro.mp3"
@@ -720,7 +720,7 @@
       "podcast": "",
       "fecha": "2026-06-07",
       "order": 7557,
-      "duration": 95,
+      "duration": 100,
       "image": "images/noticia-7557.jpg",
       "audio": {
         "alvaro": "audio/noticia-7557_alvaro.mp3"
@@ -742,7 +742,7 @@
       "podcast": "",
       "fecha": "2026-06-05",
       "order": 7550,
-      "duration": 91,
+      "duration": 93,
       "image": "images/noticia-7550.jpg",
       "audio": {
         "alvaro": "audio/noticia-7550_alvaro.mp3"
@@ -764,7 +764,7 @@
       "podcast": "",
       "fecha": "2026-06-05",
       "order": 7552,
-      "duration": 109,
+      "duration": 116,
       "image": "images/noticia-7552.jpg",
       "audio": {
         "alvaro": "audio/noticia-7552_alvaro.mp3"
@@ -786,7 +786,7 @@
       "podcast": "",
       "fecha": "2026-06-05",
       "order": 7553,
-      "duration": 90,
+      "duration": 87,
       "image": "images/noticia-7553.jpg",
       "audio": {
         "alvaro": "audio/noticia-7553_alvaro.mp3"

@@ -15,6 +15,22 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>BMW M2: mil ochocientos kilos bien plantados</title>
+      <description>Por qué el peso ya no es el enemigo número uno de un deportivo
+
+Noticia original: https://www.carwow.es/bmw/noticias/7587/prueba-bmw-m2-opinion-peso-deportivos-alvaro-ortega</description>
+      <itunes:summary>Por qué el peso ya no es el enemigo número uno de un deportivo
+
+Noticia original: https://www.carwow.es/bmw/noticias/7587/prueba-bmw-m2-opinion-peso-deportivos-alvaro-ortega</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7587.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7587_alvaro.mp3" length="1452333" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7587</guid>
+      <pubDate>Sat, 13 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/bmw/noticias/7587/prueba-bmw-m2-opinion-peso-deportivos-alvaro-ortega</link>
+    </item>
+    <item>
       <title>Mat Watson prueba el nuevo Toyota Celica</title>
       <description>El mítico deportivo vuelve y nuestro compañero lo ha conducido en Japón
 
@@ -23,10 +39,10 @@ Noticia original: https://www.carwow.es/toyota/noticias/7584/nuevo-toyota-celica
 
 Noticia original: https://www.carwow.es/toyota/noticias/7584/nuevo-toyota-celica-2028-motor-central-400cv-mat-watson</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7584.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7584_alvaro.mp3" length="1437741" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7584_alvaro.mp3" length="1519533" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7584</guid>
       <pubDate>Fri, 12 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>89</itunes:duration>
+      <itunes:duration>94</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/toyota/noticias/7584/nuevo-toyota-celica-2028-motor-central-400cv-mat-watson</link>
     </item>
@@ -39,10 +55,10 @@ Noticia original: https://www.carwow.es/ebro/s800/noticias/7583/oferta-suv-7-pla
 
 Noticia original: https://www.carwow.es/ebro/s800/noticias/7583/oferta-suv-7-plazas-fabricado-espana-32052-euros-carwow</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7583.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7583_alvaro.mp3" length="1623981" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7583_alvaro.mp3" length="1526829" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7583</guid>
       <pubDate>Fri, 12 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>101</itunes:duration>
+      <itunes:duration>95</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/ebro/s800/noticias/7583/oferta-suv-7-plazas-fabricado-espana-32052-euros-carwow</link>
     </item>
@@ -71,10 +87,10 @@ Noticia original: https://www.carwow.es/noticias/7579/oferta-suv-7-plazas-eco-22
 
 Noticia original: https://www.carwow.es/noticias/7579/oferta-suv-7-plazas-eco-22407-euros</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7579.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7579_alvaro.mp3" length="1605549" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7579_alvaro.mp3" length="1739949" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7579</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>100</itunes:duration>
+      <itunes:duration>108</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7579/oferta-suv-7-plazas-eco-22407-euros</link>
     </item>
@@ -103,10 +119,10 @@ Noticia original: https://www.carwow.es/volkswagen/noticias/7576/volkswagen-corr
 
 Noticia original: https://www.carwow.es/volkswagen/noticias/7576/volkswagen-corrado-2026-render-diseno-david-diez</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7576.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7576_alvaro.mp3" length="1734573" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7576_alvaro.mp3" length="1761453" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7576</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>108</itunes:duration>
+      <itunes:duration>110</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/volkswagen/noticias/7576/volkswagen-corrado-2026-render-diseno-david-diez</link>
     </item>
@@ -119,10 +135,10 @@ Noticia original: https://www.carwow.es/noticias/7575/futuro-alfa-romeo-modelos-
 
 Noticia original: https://www.carwow.es/noticias/7575/futuro-alfa-romeo-modelos-stellantis-opinion-mario-garces</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7575.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7575_alvaro.mp3" length="1481133" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7575_alvaro.mp3" length="1491501" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7575</guid>
       <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>92</itunes:duration>
+      <itunes:duration>93</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7575/futuro-alfa-romeo-modelos-stellantis-opinion-mario-garces</link>
     </item>
@@ -167,10 +183,10 @@ Noticia original: https://www.carwow.es/noticias/7569/denza-d9-dmi-precio-caract
 
 Noticia original: https://www.carwow.es/noticias/7569/denza-d9-dmi-precio-caracteristicas</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7569.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7569_alvaro.mp3" length="1862061" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7569_alvaro.mp3" length="1797549" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7569</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>116</itunes:duration>
+      <itunes:duration>112</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7569/denza-d9-dmi-precio-caracteristicas</link>
     </item>
@@ -183,10 +199,10 @@ Noticia original: https://www.carwow.es/audi/q7/noticias/7567/nuevo-audi-q7-2026
 
 Noticia original: https://www.carwow.es/audi/q7/noticias/7567/nuevo-audi-q7-2026-precio-lanzamiento-medidas</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7567.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7567_alvaro.mp3" length="1443501" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7567_alvaro.mp3" length="1620909" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7567</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>90</itunes:duration>
+      <itunes:duration>101</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/audi/q7/noticias/7567/nuevo-audi-q7-2026-precio-lanzamiento-medidas</link>
     </item>
@@ -215,10 +231,10 @@ Noticia original: https://www.carwow.es/kai/niro/noticias/7565/nuevo-kia-niro-20
 
 Noticia original: https://www.carwow.es/kai/niro/noticias/7565/nuevo-kia-niro-2026-hibrido-precio-lanzamiento-medidas</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7565.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7565_alvaro.mp3" length="1704621" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7565_alvaro.mp3" length="1775661" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7565</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>106</itunes:duration>
+      <itunes:duration>110</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/kai/niro/noticias/7565/nuevo-kia-niro-2026-hibrido-precio-lanzamiento-medidas</link>
     </item>
@@ -231,7 +247,7 @@ Noticia original: https://www.carwow.es/toyota/yaris-cross/noticias/7564/oferta-
 
 Noticia original: https://www.carwow.es/toyota/yaris-cross/noticias/7564/oferta-suv-hibrido-26511-euros</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7564.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7564_alvaro.mp3" length="1574061" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7564_alvaro.mp3" length="1571373" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7564</guid>
       <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
       <itunes:duration>98</itunes:duration>
@@ -295,10 +311,10 @@ Noticia original: https://www.carwow.es/fiat/noticias/7554/historia-fiat-multipl
 
 Noticia original: https://www.carwow.es/fiat/noticias/7554/historia-fiat-multipla-coche-mas-feo</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7554.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7554_alvaro.mp3" length="1592109" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7554_alvaro.mp3" length="1417773" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7554</guid>
       <pubDate>Sun, 07 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>99</itunes:duration>
+      <itunes:duration>88</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/fiat/noticias/7554/historia-fiat-multipla-coche-mas-feo</link>
     </item>
@@ -311,10 +327,10 @@ Noticia original: https://www.carwow.es/noticias/7553/galloper-vuelve-espana-202
 
 Noticia original: https://www.carwow.es/noticias/7553/galloper-vuelve-espana-2026-modelos-precio</itunes:summary>
       <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7553.jpg"/>
-      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7553_alvaro.mp3" length="1617453" type="audio/mpeg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7553_alvaro.mp3" length="1447341" type="audio/mpeg"/>
       <guid isPermaLink="false">noticia-7553</guid>
       <pubDate>Fri, 05 Jun 2026 08:00:00 +0000</pubDate>
-      <itunes:duration>101</itunes:duration>
+      <itunes:duration>90</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <link>https://www.carwow.es/noticias/7553/galloper-vuelve-espana-2026-modelos-precio</link>
     </item>

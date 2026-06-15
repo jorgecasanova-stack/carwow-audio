@@ -9,8 +9,8 @@
     <itunes:summary>Las novedades del mundo del motor que de verdad importan, en píldoras de menos de dos minutos. Lanzamientos, coches eléctricos, tendencias de la industria y curiosidades del automóvil, contadas de forma cercana por Carwow España. Más en https://www.carwow.es/editorial/noticias</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/podcast-cover.jpg"/>
-    <image><url>https://jorgecasanova-stack.github.io/carwow-audio/podcast-cover.jpg</url><title>Carwow · Noticias del motor</title><link>https://www.carwow.es/editorial/noticias</link></image>
+    <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/podcast-cover-v2.jpg"/>
+    <image><url>https://jorgecasanova-stack.github.io/carwow-audio/podcast-cover-v2.jpg</url><title>Carwow · Noticias del motor</title><link>https://www.carwow.es/editorial/noticias</link></image>
     <itunes:category text="Leisure"><itunes:category text="Automotive"/></itunes:category>
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>

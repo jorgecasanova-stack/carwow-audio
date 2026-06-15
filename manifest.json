@@ -132,6 +132,72 @@
       "script": "Hay un coche al que deberíamos darle las gracias por casi todo lo que ves hoy en la carretera. El Toyota RAV4 fue, hace ya treinta años, uno de los primeros en decir: \"¿y si hacemos un todoterreno cómodo, fácil de conducir, que sirva para el día a día de una familia normal?\". De aquella idea nació prácticamente todo el mundo SUV en el que vivimos ahora. Y aquí está su sexta generación, completamente renovada, intentando demostrar que el maestro todavía tiene cosas que enseñar. ¿Lo consigue? En parte sí, en parte… te lo voy a contar sin filtros.\n\nEn carwow le hemos puesto un ocho sobre diez, y los usuarios que ya lo tienen lo puntúan altísimo, un cuatro coma cuatro sobre cinco con más de seis mil opiniones. Así que algo muy bien hace. Empecemos por ahí, por lo bueno, que es mucho.\n\nEl RAV4 es, ante todo, un coche que transmite solidez. Te subes y sientes que esto está hecho para durar, para aguantar, para no quejarse. El interior es amplio y está muy bien organizado, con una disposición clara y, atención, con mandos físicos grandes que usas sin mirar. En una época en la que todos esconden los botones dentro de pantallas táctiles, que Toyota mantenga controles de verdad es casi un acto de rebeldía que yo aplaudo. Atrás se viaja estupendamente, con espacio de sobra y buena postura, y el maletero, con quinientos catorce litros en el híbrido, se traga lo que le eches.\n\nEn motores, Toyota juega en casa, porque de híbridos saben más que nadie. Tienes el híbrido normal de ciento ochenta y tres caballos, que gasta menos de cinco litros, una barbaridad para el tamaño que tiene. Y luego los enchufables, que es donde se pone serio: hasta trescientos cuatro caballos, tracción total, cero a cien en cinco coma ocho segundos, y cien kilómetros de autonomía solo en eléctrico. Cien kilómetros. Eso significa que, si cargas en casa, durante toda la semana puedes moverte sin gastar una gota de gasolina, y guardar el depósito entero para el viaje del fin de semana. Lo mejor de los dos mundos.\n\nPero ahora tengo que ponerme serio, porque este coche tiene un \"pero\" importante, y no te lo voy a esconder. El RAV4 supera con facilidad los cincuenta mil euros. Y para ese precio, la calidad percibida de algunos materiales se queda por debajo de lo que esperarías. Hay plásticos que, cuando estás pagando lo que pagas, te hacen arquear la ceja. No es que esté mal hecho, ojo, es robusto: es que por ese dinero esperas un punto más de mimo, más sensación premium. Y hay detalles que chirrían, como un cargador inalámbrico de móvil sin ventilación, que calienta el teléfono una barbaridad, o un equipamiento de confort en las plazas traseras que se queda algo corto para un coche de su categoría y precio.\n\nAsí que aquí va mi veredicto honesto. El Toyota RAV4 es un coche excelente en lo que de verdad importa para durar veinte años: fiabilidad, espacio, mecánica híbrida insuperable, robustez a prueba de bombas. Si vas a tenerlo muchos años y vas a hacer muchos kilómetros, es una de las decisiones más sensatas que puedes tomar, y el enchufable es una pequeña maravilla de eficiencia. Lo que tienes que tener clarísimo es que no estás comprando lujo, estás comprando tranquilidad de la buena. Si entras con esa idea en la cabeza, no te va a decepcionar jamás. Si entras esperando que cada plástico te susurre que has gastado cincuenta mil euros… ahí puede que te lleves un pequeño chasco. Tú decides qué tipo de comprador eres. Y eso, en realidad, es lo único que importa."
     },
     {
+      "id": "noticia-7588",
+      "name": "Familiar español por menos de 22.000 €",
+      "title": "Maletero de 620 litros, conducción deportiva y etiqueta ECO",
+      "categoria": "noticias",
+      "tags": [
+        "Familiar",
+        "España",
+        "ECO"
+      ],
+      "source": "https://www.carwow.es/seat/leon/noticias/7588/oferta-sportstourer-familiar-21860-euros",
+      "youtube": "",
+      "podcast": "true",
+      "fecha": "2026-06-15",
+      "order": 7588,
+      "duration": 85,
+      "image": "images/noticia-7588.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7588_alvaro.mp3"
+      },
+      "script": "¿Buscas un familiar de verdad, con maletero gigante, etiqueta ECO y que encima sea divertido de conducir? Pues te tengo una opción que se fabrica aquí, en España, y cuesta menos de veintidós mil euros. Sí, has oído bien.\n\nHablamos de un coche con seiscientos veinte litros de maletero. Para que te hagas una idea, es más espacio que muchos SUV que cuestan el doble. Perfecto si tienes familia, perro, bici o simplemente odias hacer dos viajes al Ikea.\n\nPero lo interesante no es solo el espacio. Este familiar presume de conducción deportiva. No estamos hablando de un cacharro aburrido para ir a comprar el pan. Tiene carácter, responde bien y te hace disfrutar de las curvas. Y ojo, que además lleva etiqueta ECO, así que entras en las zonas de bajas emisiones sin problemas y pagas menos peaje en autopistas.\n\n¿Y el precio? Menos de veintidós mil euros. En un mercado donde cualquier cosa con portón trasero te pide treinta mil o más, encontrar un familiar bien plantado, fabricado en España, con espacio de sobra y etiqueta medioambiental por ese dinero es casi una ganga.\n\nLa pregunta es: ¿por qué no se venden más coches así? Porque todo el mundo se ha vuelto loco con los SUV. Pero si necesitas espacio de verdad, eficiencia y algo de diversión al volante, este tipo de coche sigue siendo la opción más sensata. Y si encima es nacional y cuesta menos que un utilitario premium, pues mejor todavía."
+    },
+    {
+      "id": "noticia-7590",
+      "name": "BMW M3 eléctrico: el concept ya está aquí",
+      "title": "¿Despedimos al motor de gasolina en el M3? Te contamos qué ha presentado BMW",
+      "categoria": "noticias",
+      "tags": [
+        "BMW",
+        "Eléctrico",
+        "Deportivo"
+      ],
+      "source": "https://www.carwow.es/bmw/noticias/7590/bmw-m-concept-neue-klasse-m3-electrico",
+      "youtube": "",
+      "podcast": "true",
+      "fecha": "2026-06-15",
+      "order": 7590,
+      "duration": 98,
+      "image": "images/noticia-7590.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7590_alvaro.mp3"
+      },
+      "script": "BMW acaba de hacer algo que hace unos años habría sido impensable: presentar un concept del primer M3 eléctrico. Sí, has oído bien. El coche deportivo alemán por excelencia, el que lleva décadas siendo sinónimo de motor de gasolina de seis cilindros en línea y escape rugiendo, ahora mira al enchufe.\n\n¿Significa esto el fin del M3 que conocemos? Todavía no, pero la señal está clara. BMW está explorando cómo sería un M3 sin una gota de combustible. Y lo hace con un prototipo que, según la marca, mantiene la esencia de lo que hace especial a un M: prestaciones brutales, comportamiento deportivo y esa sensación de coche hecho para disfrutar al volante. Pero todo ello con motores eléctricos.\n\n¿Por qué te importa esto? Porque estamos ante un punto de inflexión. El M3 no es un coche cualquiera. Es el referente de los deportivos compactos desde hace más de treinta años. Si BMW da el salto al eléctrico con su joya de la corona, es que el cambio va en serio. Y si lo hace bien, podría demostrar que un deportivo eléctrico puede ser tan emocionante como uno de gasolina.\n\nClaro, todavía es un concept. No sabemos cuándo lo veremos en concesionarios, ni cuánto costará, ni si BMW seguirá vendiendo la versión de gasolina en paralelo. Pero la intención está ahí. Y eso ya es una declaración de intenciones enorme.\n\nAsí que sí, puede que el M3 de gasolina tenga los días contados. O puede que convivan las dos versiones. Lo que está claro es que BMW ya no se esconde: el futuro de M también es eléctrico."
+    },
+    {
+      "id": "noticia-7591",
+      "name": "Enchufable por 18.700 €: ¿merece la pena?",
+      "title": "Probamos el híbrido más barato de España con 1000 km de autonomía",
+      "categoria": "noticias",
+      "tags": [
+        "Híbrido",
+        "PHEV",
+        "Precio"
+      ],
+      "source": "https://www.carwow.es/byd/dolphin/noticias/7591/prueba-byd-dolphin-g-dmi-opinion",
+      "youtube": "",
+      "podcast": "true",
+      "fecha": "2026-06-15",
+      "order": 7591,
+      "duration": 97,
+      "image": "images/noticia-7591.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7591_alvaro.mp3"
+      },
+      "script": "Dieciocho mil setecientos euros. Ese es el precio del híbrido enchufable más barato que puedes comprar ahora mismo en España. Y sí, hemos ido a probarlo para ver si tiene trampa o es la ganga que parece sobre el papel.\n\nPorque claro, cuando ves un enchufable por ese precio, con más de mil kilómetros de autonomía combinada y maletero decente, te preguntas: ¿qué le falta? ¿Dónde está el truco? Pues bien, aquí va la respuesta.\n\nPrimero, lo bueno. Mil kilómetros de autonomía total significa que puedes hacer tu día a día en eléctrico puro, unos sesenta o setenta kilómetros reales enchufando cada noche, y después tirar del motor de gasolina para viajes largos sin parar a cargar. Es la teoría del enchufable bien aplicada: coche eléctrico entre semana, térmico el fin de semana. Y el maletero no es de juguete, cabe equipaje de verdad.\n\nAhora, lo otro. Dieciocho mil setecientos es el precio de lanzamiento, con ayudas y descuentos incluidos. Sin ayudas públicas, sube bastante. Y luego está lo de siempre: acabados justos, materiales correctos pero sin lujos, y una marca que en España todavía no tiene el caché ni la red de un Volkswagen o un Toyota.\n\nPero aquí está la clave: ¿necesitas un coche premium o necesitas un coche que funcione, gaste poco y no te arruine? Porque si es lo segundo, este enchufable hace los deberes. No es el más bonito, ni el más tecnológico, pero por ese precio, con esa autonomía y esa versatilidad, pone los puntos sobre las íes. A veces, lo barato sale bueno. Otras, sale barato. Nosotros te contamos en qué grupo cae este."
+    },
+    {
       "id": "noticia-7586",
       "name": "Híbrido por menos de 17.000 euros",
       "title": "Más potente que el Yaris y más barato: conoce esta alternativa",

@@ -15,6 +15,54 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Enchufable por 18.700 €: ¿merece la pena?</title>
+      <description>Probamos el híbrido más barato de España con 1000 km de autonomía
+
+Noticia original: https://www.carwow.es/byd/dolphin/noticias/7591/prueba-byd-dolphin-g-dmi-opinion</description>
+      <itunes:summary>Probamos el híbrido más barato de España con 1000 km de autonomía
+
+Noticia original: https://www.carwow.es/byd/dolphin/noticias/7591/prueba-byd-dolphin-g-dmi-opinion</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7591.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7591_alvaro.mp3" length="1556781" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7591</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>97</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/byd/dolphin/noticias/7591/prueba-byd-dolphin-g-dmi-opinion</link>
+    </item>
+    <item>
+      <title>BMW M3 eléctrico: el concept ya está aquí</title>
+      <description>¿Despedimos al motor de gasolina en el M3? Te contamos qué ha presentado BMW
+
+Noticia original: https://www.carwow.es/bmw/noticias/7590/bmw-m-concept-neue-klasse-m3-electrico</description>
+      <itunes:summary>¿Despedimos al motor de gasolina en el M3? Te contamos qué ha presentado BMW
+
+Noticia original: https://www.carwow.es/bmw/noticias/7590/bmw-m-concept-neue-klasse-m3-electrico</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7590.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7590_alvaro.mp3" length="1572141" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7590</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>98</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/bmw/noticias/7590/bmw-m-concept-neue-klasse-m3-electrico</link>
+    </item>
+    <item>
+      <title>Familiar español por menos de 22.000 €</title>
+      <description>Maletero de 620 litros, conducción deportiva y etiqueta ECO
+
+Noticia original: https://www.carwow.es/seat/leon/noticias/7588/oferta-sportstourer-familiar-21860-euros</description>
+      <itunes:summary>Maletero de 620 litros, conducción deportiva y etiqueta ECO
+
+Noticia original: https://www.carwow.es/seat/leon/noticias/7588/oferta-sportstourer-familiar-21860-euros</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7588.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7588_alvaro.mp3" length="1366701" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7588</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>85</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/seat/leon/noticias/7588/oferta-sportstourer-familiar-21860-euros</link>
+    </item>
+    <item>
       <title>BMW M2: mil ochocientos kilos bien plantados</title>
       <description>Por qué el peso ya no es el enemigo número uno de un deportivo
 

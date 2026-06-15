@@ -15,6 +15,70 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Audi Nuvolari: superdeportivo que desafía la física</title>
+      <description>Un concept salvaje que empuja los límites de la ingeniería
+
+Noticia original: https://www.carwow.es/noticias/7599/audi-nuvolari-superdeportivo-hibrido-1001-cv</description>
+      <itunes:summary>Un concept salvaje que empuja los límites de la ingeniería
+
+Noticia original: https://www.carwow.es/noticias/7599/audi-nuvolari-superdeportivo-hibrido-1001-cv</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7599.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7599_alvaro.mp3" length="1335213" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7599</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>83</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7599/audi-nuvolari-superdeportivo-hibrido-1001-cv</link>
+    </item>
+    <item>
+      <title>Opel Calibra: el coupé de los 90 vuelve</title>
+      <description>Renders exclusivos muestran cómo sería el deportivo que marcó una época si renaciera hoy
+
+Noticia original: https://www.carwow.es/noticias/7598/opel-calibra-render-2026-miguel-galante</description>
+      <itunes:summary>Renders exclusivos muestran cómo sería el deportivo que marcó una época si renaciera hoy
+
+Noticia original: https://www.carwow.es/noticias/7598/opel-calibra-render-2026-miguel-galante</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7598.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7598_alvaro.mp3" length="1476909" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7598</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>92</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7598/opel-calibra-render-2026-miguel-galante</link>
+    </item>
+    <item>
+      <title>La caja CVT: qué es y por qué Toyota la usa</title>
+      <description>Te explicamos el cambio automático que casi todos los Toyota llevan y cómo funciona
+
+Noticia original: https://www.carwow.es/noticias/7597/caja-de-cambios-cvt-comofunciona</description>
+      <itunes:summary>Te explicamos el cambio automático que casi todos los Toyota llevan y cómo funciona
+
+Noticia original: https://www.carwow.es/noticias/7597/caja-de-cambios-cvt-comofunciona</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7597.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7597_alvaro.mp3" length="1899693" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7597</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>118</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7597/caja-de-cambios-cvt-comofunciona</link>
+    </item>
+    <item>
+      <title>BYD Seal U vs Skoda Enyaq</title>
+      <description>Mismo tamaño, más equipamiento y cuatro mil euros más barato. ¿Tiene sentido pagar de más por la marca europea?
+
+Noticia original: https://www.carwow.es/noticias/7596/skoda-enyaq-vs-byd-seal-u-comparativa</description>
+      <itunes:summary>Mismo tamaño, más equipamiento y cuatro mil euros más barato. ¿Tiene sentido pagar de más por la marca europea?
+
+Noticia original: https://www.carwow.es/noticias/7596/skoda-enyaq-vs-byd-seal-u-comparativa</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7596.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7596_alvaro.mp3" length="1810221" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7596</guid>
+      <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>113</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7596/skoda-enyaq-vs-byd-seal-u-comparativa</link>
+    </item>
+    <item>
       <title>Ford Escort Mk1 RS resucita con 330 CV</title>
       <description>Un clásico renace con prestaciones de deportivo moderno, pero hay trampa
 

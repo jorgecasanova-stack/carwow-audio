@@ -15,6 +15,70 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Madrid: piden anular 3,5 millones de multas</title>
+      <description>Las Zonas de Bajas Emisiones en el punto de mira judicial
+
+Noticia original: https://www.carwow.es/noticias/7608/multas-zbe-madrid-anulacion-aea</description>
+      <itunes:summary>Las Zonas de Bajas Emisiones en el punto de mira judicial
+
+Noticia original: https://www.carwow.es/noticias/7608/multas-zbe-madrid-anulacion-aea</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7608.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7608_alvaro.mp3" length="1427373" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7608</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>89</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7608/multas-zbe-madrid-anulacion-aea</link>
+    </item>
+    <item>
+      <title>Mercedes AMG vuelve al V8 de verdad</title>
+      <description>Seiscientos doce caballos que suenan, vibran y hacen lo que siempre debieron: emocionar
+
+Noticia original: https://www.carwow.es/mercedes/noticias/7607/actualizacion-amg-gle-63-s-gls-63-2026-v8</description>
+      <itunes:summary>Seiscientos doce caballos que suenan, vibran y hacen lo que siempre debieron: emocionar
+
+Noticia original: https://www.carwow.es/mercedes/noticias/7607/actualizacion-amg-gle-63-s-gls-63-2026-v8</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7607.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7607_alvaro.mp3" length="1834413" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7607</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>114</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/mercedes/noticias/7607/actualizacion-amg-gle-63-s-gls-63-2026-v8</link>
+    </item>
+    <item>
+      <title>La gasolina podría subir 40 céntimos</title>
+      <description>El Gobierno tiene dos semanas para evitar el hachazo en tu bolsillo
+
+Noticia original: https://www.carwow.es/noticias/7605/subida-gasolina-diesel-julio-2026</description>
+      <itunes:summary>El Gobierno tiene dos semanas para evitar el hachazo en tu bolsillo
+
+Noticia original: https://www.carwow.es/noticias/7605/subida-gasolina-diesel-julio-2026</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7605.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7605_alvaro.mp3" length="1449261" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7605</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7605/subida-gasolina-diesel-julio-2026</link>
+    </item>
+    <item>
+      <title>Seiscientos kilómetros con el Changan Deepal S05</title>
+      <description>Precio tentador, tecnología china y algún pero: te cuento qué tal
+
+Noticia original: https://www.carwow.es/changan/noticias/7602/changan-deepal-s05-4wd-prueba-consumo-autonomia-real</description>
+      <itunes:summary>Precio tentador, tecnología china y algún pero: te cuento qué tal
+
+Noticia original: https://www.carwow.es/changan/noticias/7602/changan-deepal-s05-4wd-prueba-consumo-autonomia-real</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7602.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7602_alvaro.mp3" length="1818669" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7602</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>113</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/changan/noticias/7602/changan-deepal-s05-4wd-prueba-consumo-autonomia-real</link>
+    </item>
+    <item>
       <title>Coche ECO con Google y Spotify integrados</title>
       <description>Por menos de diecinueve mil euros y sin depender del móvil
 

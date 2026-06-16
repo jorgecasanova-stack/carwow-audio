@@ -15,6 +15,22 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Coche ECO con Google y Spotify integrados</title>
+      <description>Por menos de diecinueve mil euros y sin depender del móvil
+
+Noticia original: https://www.carwow.es/renault/captur/noticias/7601/oferta-google-integrado-eco-18964-euros-carwow</description>
+      <itunes:summary>Por menos de diecinueve mil euros y sin depender del móvil
+
+Noticia original: https://www.carwow.es/renault/captur/noticias/7601/oferta-google-integrado-eco-18964-euros-carwow</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7601.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7601_alvaro.mp3" length="1656621" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7601</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>103</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/renault/captur/noticias/7601/oferta-google-integrado-eco-18964-euros-carwow</link>
+    </item>
+    <item>
       <title>Audi Nuvolari: superdeportivo que desafía la física</title>
       <description>Un concept salvaje que empuja los límites de la ingeniería
 

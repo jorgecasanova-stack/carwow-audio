@@ -15,6 +15,70 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Eléctrico por menos de 12.000 euros</title>
+      <description>Etiqueta CERO y más de 300 km de autonomía real
+
+Noticia original: https://www.carwow.es/citroen/e-c3/noticias/7647/urbano-electrico-europeo-300-km-autonomia-precio-imbatible-oferta</description>
+      <itunes:summary>Etiqueta CERO y más de 300 km de autonomía real
+
+Noticia original: https://www.carwow.es/citroen/e-c3/noticias/7647/urbano-electrico-europeo-300-km-autonomia-precio-imbatible-oferta</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7647.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7647_alvaro.mp3" length="1824813" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7647</guid>
+      <pubDate>Wed, 17 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>114</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/citroen/e-c3/noticias/7647/urbano-electrico-europeo-300-km-autonomia-precio-imbatible-oferta</link>
+    </item>
+    <item>
+      <title>Nuevos sistemas obligatorios desde julio</title>
+      <description>Tu próximo coche trae más tecnología de serie, te contamos cuál
+
+Noticia original: https://www.carwow.es/noticias/7613/sistemas-obligatorios-coches-nuevos-julio-2026-gsr2</description>
+      <itunes:summary>Tu próximo coche trae más tecnología de serie, te contamos cuál
+
+Noticia original: https://www.carwow.es/noticias/7613/sistemas-obligatorios-coches-nuevos-julio-2026-gsr2</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7613.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7613_alvaro.mp3" length="1824813" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7613</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>114</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7613/sistemas-obligatorios-coches-nuevos-julio-2026-gsr2</link>
+    </item>
+    <item>
+      <title>Audi A6 allroad: el SUV killer</title>
+      <description>Crece en tamaño, roza los cien kilómetros eléctricos y viene a por los SUV
+
+Noticia original: https://www.carwow.es/noticias/7612/lanzamiento-audi-a6-allroad-2026</description>
+      <itunes:summary>Crece en tamaño, roza los cien kilómetros eléctricos y viene a por los SUV
+
+Noticia original: https://www.carwow.es/noticias/7612/lanzamiento-audi-a6-allroad-2026</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7612.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7612_alvaro.mp3" length="1753389" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7612</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>109</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7612/lanzamiento-audi-a6-allroad-2026</link>
+    </item>
+    <item>
+      <title>Plan Auto+: anunciado pero aún inactivo</title>
+      <description>Medio año después del anuncio, las ayudas siguen sin poder pedirse
+
+Noticia original: https://www.carwow.es/noticias/7611/plan-auto-plus-2026-se-agotara-presupuesto-david-diez</description>
+      <itunes:summary>Medio año después del anuncio, las ayudas siguen sin poder pedirse
+
+Noticia original: https://www.carwow.es/noticias/7611/plan-auto-plus-2026-se-agotara-presupuesto-david-diez</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7611.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7611_alvaro.mp3" length="1707693" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7611</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>106</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7611/plan-auto-plus-2026-se-agotara-presupuesto-david-diez</link>
+    </item>
+    <item>
       <title>Madrid: piden anular 3,5 millones de multas</title>
       <description>Las Zonas de Bajas Emisiones en el punto de mira judicial
 

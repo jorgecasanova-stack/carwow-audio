@@ -15,6 +15,38 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Peugeot 208: cambio radical en 2027</title>
+      <description>El urbanita francés apuesta por plataforma nueva y más autonomía
+
+Noticia original: https://www.carwow.es/peugeot/noticias/7653/nuevo-peugeot-e-208-diseno-render-david-diez</description>
+      <itunes:summary>El urbanita francés apuesta por plataforma nueva y más autonomía
+
+Noticia original: https://www.carwow.es/peugeot/noticias/7653/nuevo-peugeot-e-208-diseno-render-david-diez</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7653.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7653_alvaro.mp3" length="1799469" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7653</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>112</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/peugeot/noticias/7653/nuevo-peugeot-e-208-diseno-render-david-diez</link>
+    </item>
+    <item>
+      <title>Peugeot E-208 GTi: 281 CV eléctricos</title>
+      <description>El mito de los ochenta vuelve enchufado y con ganas de guerra
+
+Noticia original: https://www.carwow.es/peugeot/e-208/noticias/7652/peugeot-e-208-gti-precio-prestaciones-electricos</description>
+      <itunes:summary>El mito de los ochenta vuelve enchufado y con ganas de guerra
+
+Noticia original: https://www.carwow.es/peugeot/e-208/noticias/7652/peugeot-e-208-gti-precio-prestaciones-electricos</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7652.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7652_alvaro.mp3" length="1519533" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7652</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>94</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/peugeot/e-208/noticias/7652/peugeot-e-208-gti-precio-prestaciones-electricos</link>
+    </item>
+    <item>
       <title>Eléctrico por menos de 12.000 euros</title>
       <description>Etiqueta CERO y más de 300 km de autonomía real
 

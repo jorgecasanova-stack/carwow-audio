@@ -220,6 +220,50 @@
       "script": "Hay un híbrido japonés que acaba de ponerse muy interesante. Hablamos de un coche que combina algo que casi parece en extinción: un motor atmosférico de la vieja escuela con la eficiencia de un sistema híbrido. Y lo mejor de todo es que su precio acaba de bajar por debajo de los veinticinco mil euros.\n\n¿Por qué te cuento esto? Porque en un mercado donde todo el mundo se vuelve loco por turbos, mild hybrids de 48 voltios y electrificaciones a medias, este modelo va a lo seguro. Motor de gasolina sin turbo, fiable como un reloj suizo, combinado con un eléctrico que te ayuda en ciudad y te hace ahorrar combustible de verdad. Nada de humo: hablamos de consumos reales por debajo de los cinco litros cada cien kilómetros.\n\nY ahora viene con rebaja. Menos de veinticinco mil euros por un híbrido completo, con garantía japonesa y un sistema probado en millones de unidades por todo el mundo. No es el coche más emocionante del mercado, vale, pero si buscas algo sensato, económico y que no te va a dar disgustos, aquí tienes una opción que acaba de mejorar mucho en precio.\n\nLa pregunta es: ¿merece la pena apostar por tecnología probada o prefieres arriesgar con lo último? Porque a este precio, la vieja escuela se defiende muy bien."
     },
     {
+      "id": "noticia-7664",
+      "name": "Eléctrico compacto por menos de 22.000 €",
+      "title": "Mide menos de 4 metros, doble pantalla y se conduce como uno premium",
+      "categoria": "noticias",
+      "tags": [
+        "Eléctrico",
+        "Urbano",
+        "Precio"
+      ],
+      "source": "https://www.carwow.es/renault/noticias/7664/oferta-21197-euros-carwow",
+      "youtube": "",
+      "podcast": "true",
+      "fecha": "2026-06-18",
+      "order": 7664,
+      "duration": 90,
+      "image": "images/noticia-7664.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7664_alvaro.mp3"
+      },
+      "script": "¿Un eléctrico de menos de cuatro metros, con doble pantalla y que se conduce mejor que muchos que cuestan el doble? Suena a broma, pero existe. Y cuesta menos de veintidós mil euros.\n\nHablamos de un compacto urbano que está demostrando que no hace falta gastarse una fortuna para tener un eléctrico bien resuelto. Porque claro, cuando piensas en coches eléctricos con buena tecnología y comportamiento dinámico decente, automáticamente te vienen a la mente cifras de cuarenta, cincuenta mil euros o más.\n\nPues este pequeñín rompe esa regla. Mide menos de cuatro metros, perfecto para la ciudad, pero por dentro presume de un habitáculo con doble pantalla que no tiene nada que envidiar a rivales mucho más caros. Y ojo, porque no es solo cuestión de pantallas grandes. Es que al volante se nota que alguien se ha tomado en serio el ajuste de suspensiones, dirección y peso. Se conduce con una naturalidad que muchos eléctricos del doble de precio no consiguen. Sabes de lo que hablo: esos que son rápidos en línea recta pero luego en curva parecen un mueble.\n\nEste, no. Este te da confianza, responde bien, y encima no te deja tirado en autonomía. Para moverte por ciudad y alrededores cumple de sobra. Y por menos de veintidós mil euros, empieza a tener mucho sentido. Sobre todo si buscas un eléctrico urbano que no sea solo una excusa para poner baterías, sino un coche que apetezca conducir.\n\nPorque al final, de eso se trata. De que un eléctrico asequible no tenga que ser sinónimo de renuncias. Y este demuestra que se puede."
+    },
+    {
+      "id": "noticia-7665",
+      "name": "BMW M5: etiqueta 0 y precio de oro",
+      "title": "El deportivo híbrido enchufable que cuesta un riñón en extras",
+      "categoria": "noticias",
+      "tags": [
+        "BMW",
+        "Híbrido",
+        "Deportivo"
+      ],
+      "source": "https://www.carwow.es/bmw/m5/noticias/7665/prueba-bmw-m5-touring-opinion-alvaro-ortega",
+      "youtube": "",
+      "podcast": "true",
+      "fecha": "2026-06-18",
+      "order": 7665,
+      "duration": 100,
+      "image": "images/noticia-7665.jpg",
+      "audio": {
+        "alvaro": "audio/noticia-7665_alvaro.mp3"
+      },
+      "script": "Imagina poder circular por el centro de Madrid con un deportivo de setecientos cincuenta caballos. Suena bien, verdad. Pues el nuevo BMW M5 lo hace posible gracias a su etiqueta cero emisiones. Ahora bien, ese privilegio tiene un coste que puede hacerte replantear si de verdad lo necesitas.\n\nEl M5 de séptima generación es el primer modelo de la familia M en incorporar tecnología híbrida enchufable. Combina un motor V ocho biturbo de seiscientos caballos con un eléctrico de ciento noventa y siete, lo que suma esa barbaridad de potencia. Con todo ese músculo, acelera de cero a cien en tres coma cinco segundos. Nada mal para un sedán que pesa dos mil cuatrocientos kilos.\n\nPero aquí viene lo interesante: la batería de catorce coma ocho kilovatios hora le da una autonomía eléctrica homologada de sesenta y siete kilómetros. En teoría, suficiente para tus recorridos diarios sin quemar gasolina. En la práctica, ya sabes cómo funciona esto: conduce un poco alegre y esa autonomía se evapora.\n\nEl precio de partida ronda los ciento cuarenta y cinco mil euros. Pero claro, BMW sabe cómo sacar más de tu cartera. Quieres el paquete M Driver con modo drift y lanzamiento optimizado? Tres mil quinientos euros más. El sistema de sonido Bowers and Wilkins? Otros cuatro mil doscientos. Llantas de carbono para ahorrar peso, porque conducir dos toneladas y media no es suficiente castigo? Añade ocho mil euros.\n\nAl final puedes llegar fácilmente a los ciento sesenta mil euros. Y todo por poder presumir de etiqueta cero y colarte en zonas restringidas. Eso sí, con setecientos cincuenta caballos bajo el capó. Tú decides si el acceso libre a las grandes ciudades justifica hipotecar tu futuro. O simplemente reconoces que lo quieres porque es un M5 y punto."
+    },
+    {
       "id": "noticia-7647",
       "name": "Eléctrico por menos de 12.000 euros",
       "title": "Etiqueta CERO y más de 300 km de autonomía real",

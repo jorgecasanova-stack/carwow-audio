@@ -15,6 +15,38 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>BMW M5: etiqueta 0 y precio de oro</title>
+      <description>El deportivo híbrido enchufable que cuesta un riñón en extras
+
+Noticia original: https://www.carwow.es/bmw/m5/noticias/7665/prueba-bmw-m5-touring-opinion-alvaro-ortega</description>
+      <itunes:summary>El deportivo híbrido enchufable que cuesta un riñón en extras
+
+Noticia original: https://www.carwow.es/bmw/m5/noticias/7665/prueba-bmw-m5-touring-opinion-alvaro-ortega</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7665.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7665_alvaro.mp3" length="1613229" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7665</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>100</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/bmw/m5/noticias/7665/prueba-bmw-m5-touring-opinion-alvaro-ortega</link>
+    </item>
+    <item>
+      <title>Eléctrico compacto por menos de 22.000 €</title>
+      <description>Mide menos de 4 metros, doble pantalla y se conduce como uno premium
+
+Noticia original: https://www.carwow.es/renault/noticias/7664/oferta-21197-euros-carwow</description>
+      <itunes:summary>Mide menos de 4 metros, doble pantalla y se conduce como uno premium
+
+Noticia original: https://www.carwow.es/renault/noticias/7664/oferta-21197-euros-carwow</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7664.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7664_alvaro.mp3" length="1448109" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7664</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/renault/noticias/7664/oferta-21197-euros-carwow</link>
+    </item>
+    <item>
       <title>BlueCruise de Ford: soltar el volante da miedo</title>
       <description>Probamos la conducción autónoma en autopista que te libera las manos
 

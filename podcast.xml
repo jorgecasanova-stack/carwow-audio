@@ -15,6 +15,22 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>BlueCruise de Ford: soltar el volante da miedo</title>
+      <description>Probamos la conducción autónoma en autopista que te libera las manos
+
+Noticia original: https://www.carwow.es/ford/noticias/7654/ford-bluecruise-kuga-puma-conduccion-sin-manos-espana-prueba</description>
+      <itunes:summary>Probamos la conducción autónoma en autopista que te libera las manos
+
+Noticia original: https://www.carwow.es/ford/noticias/7654/ford-bluecruise-kuga-puma-conduccion-sin-manos-espana-prueba</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7654.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7654_alvaro.mp3" length="1634733" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7654</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>102</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/ford/noticias/7654/ford-bluecruise-kuga-puma-conduccion-sin-manos-espana-prueba</link>
+    </item>
+    <item>
       <title>Peugeot 208: cambio radical en 2027</title>
       <description>El urbanita francés apuesta por plataforma nueva y más autonomía
 

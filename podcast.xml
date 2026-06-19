@@ -15,6 +15,38 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>ITV caducada estando de vacaciones</title>
+      <description>Qué hacer si se te pasa la fecha fuera de casa
+
+Noticia original: https://www.carwow.es/noticias/7670/itv-caducada-vacaciones-multa-que-hacer</description>
+      <itunes:summary>Qué hacer si se te pasa la fecha fuera de casa
+
+Noticia original: https://www.carwow.es/noticias/7670/itv-caducada-vacaciones-multa-que-hacer</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7670.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7670_alvaro.mp3" length="1570221" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7670</guid>
+      <pubDate>Fri, 19 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>98</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7670/itv-caducada-vacaciones-multa-que-hacer</link>
+    </item>
+    <item>
+      <title>Gasolina vs diésel vs híbrido: la cuenta real</title>
+      <description>Hemos calculado cuánto cuesta de verdad cada motorización en un viaje largo este verano
+
+Noticia original: https://www.carwow.es/noticias/7669/comparativa-coste-gasolina-diesel-hibrido-phev-viaje-largo-david-diez</description>
+      <itunes:summary>Hemos calculado cuánto cuesta de verdad cada motorización en un viaje largo este verano
+
+Noticia original: https://www.carwow.es/noticias/7669/comparativa-coste-gasolina-diesel-hibrido-phev-viaje-largo-david-diez</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7669.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7669_alvaro.mp3" length="1985709" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7669</guid>
+      <pubDate>Fri, 19 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>124</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7669/comparativa-coste-gasolina-diesel-hibrido-phev-viaje-largo-david-diez</link>
+    </item>
+    <item>
       <title>BMW M5: etiqueta 0 y precio de oro</title>
       <description>El deportivo híbrido enchufable que cuesta un riñón en extras
 

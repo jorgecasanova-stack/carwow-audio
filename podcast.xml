@@ -15,6 +15,22 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>La trampa de los caballos chinos</title>
+      <description>Por qué un coche chino con más potencia puede correr menos
+
+Noticia original: https://www.carwow.es/noticias/7673/pequena-mentira-caballos-coches-chinos-experiencia-mario-garces</description>
+      <itunes:summary>Por qué un coche chino con más potencia puede correr menos
+
+Noticia original: https://www.carwow.es/noticias/7673/pequena-mentira-caballos-coches-chinos-experiencia-mario-garces</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7673.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7673_alvaro.mp3" length="1823661" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7673</guid>
+      <pubDate>Sat, 20 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>113</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7673/pequena-mentira-caballos-coches-chinos-experiencia-mario-garces</link>
+    </item>
+    <item>
       <title>ITV caducada estando de vacaciones</title>
       <description>Qué hacer si se te pasa la fecha fuera de casa
 

@@ -15,6 +15,38 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>El eléctrico que convence a los gasolineros</title>
+      <description>Menos de 40 mil euros y es capaz de cambiar opiniones
+
+Noticia original: https://www.carwow.es/alpine/a290/noticias/7677/alpine-a290-opinion-alvaro-ortega</description>
+      <itunes:summary>Menos de 40 mil euros y es capaz de cambiar opiniones
+
+Noticia original: https://www.carwow.es/alpine/a290/noticias/7677/alpine-a290-opinion-alvaro-ortega</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7677.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7677_alvaro.mp3" length="1635501" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7677</guid>
+      <pubDate>Sun, 21 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>102</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/alpine/a290/noticias/7677/alpine-a290-opinion-alvaro-ortega</link>
+    </item>
+    <item>
+      <title>Tesla Model 3 ochentero: el render retro</title>
+      <description>Cómo sería el eléctrico de Elon si hubiera nacido en la época de Miami Vice
+
+Noticia original: https://www.carwow.es/tesla/noticias/7662/tesla-model-3-anos-80-experimento-diseno-david-diez</description>
+      <itunes:summary>Cómo sería el eléctrico de Elon si hubiera nacido en la época de Miami Vice
+
+Noticia original: https://www.carwow.es/tesla/noticias/7662/tesla-model-3-anos-80-experimento-diseno-david-diez</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7662.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7662_alvaro.mp3" length="1451181" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7662</guid>
+      <pubDate>Sun, 21 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>90</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/tesla/noticias/7662/tesla-model-3-anos-80-experimento-diseno-david-diez</link>
+    </item>
+    <item>
       <title>La trampa de los caballos chinos</title>
       <description>Por qué un coche chino con más potencia puede correr menos
 

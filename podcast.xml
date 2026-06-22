@@ -15,6 +15,22 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Renault Megane E-Tech con Google Gemini</title>
+      <description>Batería LFP de 500 km y el asistente de inteligencia artificial más potente del mercado
+
+Noticia original: https://www.carwow.es/renault/megane-e-tech/noticias/7682/renault-megane-etech-2026-bateria-lfp-detalles</description>
+      <itunes:summary>Batería LFP de 500 km y el asistente de inteligencia artificial más potente del mercado
+
+Noticia original: https://www.carwow.es/renault/megane-e-tech/noticias/7682/renault-megane-etech-2026-bateria-lfp-detalles</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7682.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7682_alvaro.mp3" length="1714989" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7682</guid>
+      <pubDate>Mon, 22 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>107</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/renault/megane-e-tech/noticias/7682/renault-megane-etech-2026-bateria-lfp-detalles</link>
+    </item>
+    <item>
       <title>Volkswagen estrella un ID. Polo en directo</title>
       <description>El test de choque más impresionante que hemos visto en meses
 

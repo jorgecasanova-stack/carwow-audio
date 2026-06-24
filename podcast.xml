@@ -15,6 +15,70 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>SUV español con 7 años de garantía</title>
+      <description>Doble pantalla, etiqueta ECO o CERO y menos de 26.000 euros
+
+Noticia original: https://www.carwow.es/ebro/noticias/7698/oferta-suv-espanol-doble-pantalla-garantia-25990-euros</description>
+      <itunes:summary>Doble pantalla, etiqueta ECO o CERO y menos de 26.000 euros
+
+Noticia original: https://www.carwow.es/ebro/noticias/7698/oferta-suv-espanol-doble-pantalla-garantia-25990-euros</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7698.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7698_alvaro.mp3" length="1529901" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7698</guid>
+      <pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>95</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/ebro/noticias/7698/oferta-suv-espanol-doble-pantalla-garantia-25990-euros</link>
+    </item>
+    <item>
+      <title>Tráfico cierra vacíos legales: multas de 200 euros</title>
+      <description>Nuevas normas para patinetes, motos y coches que debes conocer
+
+Noticia original: https://www.carwow.es/noticias/7696/nuevo-reglamento-circulacion-2026-multas-motos-patinetes</description>
+      <itunes:summary>Nuevas normas para patinetes, motos y coches que debes conocer
+
+Noticia original: https://www.carwow.es/noticias/7696/nuevo-reglamento-circulacion-2026-multas-motos-patinetes</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7696.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7696_alvaro.mp3" length="1636269" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7696</guid>
+      <pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>102</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7696/nuevo-reglamento-circulacion-2026-multas-motos-patinetes</link>
+    </item>
+    <item>
+      <title>Skoda Elroq: eléctrico de 7 plazas</title>
+      <description>628 km de autonomía y espacio familiar sin límites
+
+Noticia original: https://www.carwow.es/skoda/noticias/7694/skoda-peaq-precio-autonomia-7-plazas-2026-david-diez</description>
+      <itunes:summary>628 km de autonomía y espacio familiar sin límites
+
+Noticia original: https://www.carwow.es/skoda/noticias/7694/skoda-peaq-precio-autonomia-7-plazas-2026-david-diez</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7694.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7694_alvaro.mp3" length="1699629" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7694</guid>
+      <pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>106</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/skoda/noticias/7694/skoda-peaq-precio-autonomia-7-plazas-2026-david-diez</link>
+    </item>
+    <item>
+      <title>Tres SUV eléctricos compactos desde 24.190 €</title>
+      <description>Un premium, un generalista y un chino: ¿cuál es el mejor de 2026?
+
+Noticia original: https://www.carwow.es/kia/noticias/7691/volvo-ex30-vs-kia-ev3-vs-byd-atto-2-comparativa-2026-david-diez</description>
+      <itunes:summary>Un premium, un generalista y un chino: ¿cuál es el mejor de 2026?
+
+Noticia original: https://www.carwow.es/kia/noticias/7691/volvo-ex30-vs-kia-ev3-vs-byd-atto-2-comparativa-2026-david-diez</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7691.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7691_alvaro.mp3" length="1517229" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7691</guid>
+      <pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>94</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/kia/noticias/7691/volvo-ex30-vs-kia-ev3-vs-byd-atto-2-comparativa-2026-david-diez</link>
+    </item>
+    <item>
       <title>Renault Megane E-Tech con Google Gemini</title>
       <description>Batería LFP de 500 km y el asistente de inteligencia artificial más potente del mercado
 

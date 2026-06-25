@@ -15,6 +15,70 @@
     <itunes:owner><itunes:name>Jorge Casanova</itunes:name><itunes:email>jorge.casanova@carwow.es</itunes:email></itunes:owner>
     <atom:link href="https://jorgecasanova-stack.github.io/carwow-audio/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>El SUV familiar definitivo para 2025</title>
+      <description>Seiscientos cincuenta y dos litros de maletero y tres motorizaciones distintas
+
+Noticia original: https://www.carwow.es/volkswagen/tiguan/noticias/7712/suv-familiar-definitivo-maletero-motores-oferta</description>
+      <itunes:summary>Seiscientos cincuenta y dos litros de maletero y tres motorizaciones distintas
+
+Noticia original: https://www.carwow.es/volkswagen/tiguan/noticias/7712/suv-familiar-definitivo-maletero-motores-oferta</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7712.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7712_alvaro.mp3" length="1936941" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7712</guid>
+      <pubDate>Thu, 25 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>121</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/volkswagen/tiguan/noticias/7712/suv-familiar-definitivo-maletero-motores-oferta</link>
+    </item>
+    <item>
+      <title>Audi A3 renovado: 150 km eléctricos</title>
+      <description>Nuevo diseño, aparcamiento desde el móvil y un híbrido enchufable que cambia las reglas
+
+Noticia original: https://www.carwow.es/noticias/7707/audi-a3-2026-novedades-precios-motores</description>
+      <itunes:summary>Nuevo diseño, aparcamiento desde el móvil y un híbrido enchufable que cambia las reglas
+
+Noticia original: https://www.carwow.es/noticias/7707/audi-a3-2026-novedades-precios-motores</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7707.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7707_alvaro.mp3" length="1569453" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7707</guid>
+      <pubDate>Thu, 25 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>98</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/noticias/7707/audi-a3-2026-novedades-precios-motores</link>
+    </item>
+    <item>
+      <title>El coche que menos consume del mercado</title>
+      <description>Un urbano japonés con etiqueta ECO por menos de veinte mil euros
+
+Noticia original: https://www.carwow.es/toyota/aygo-x-cross/noticias/7705/oferta-mas-eficiente-del-mercado-19938-euros</description>
+      <itunes:summary>Un urbano japonés con etiqueta ECO por menos de veinte mil euros
+
+Noticia original: https://www.carwow.es/toyota/aygo-x-cross/noticias/7705/oferta-mas-eficiente-del-mercado-19938-euros</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7705.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7705_alvaro.mp3" length="1547181" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7705</guid>
+      <pubDate>Thu, 25 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>96</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/toyota/aygo-x-cross/noticias/7705/oferta-mas-eficiente-del-mercado-19938-euros</link>
+    </item>
+    <item>
+      <title>Alfa Romeo 156 GTA eléctrico en 2026</title>
+      <description>Un diseñador imagina cómo sería revivir la leyenda italiana con baterías
+
+Noticia original: https://www.carwow.es/alfa-romeo/noticias/7701/alfa-romeo-156-gta-electrico-render-2026-miguel-galante</description>
+      <itunes:summary>Un diseñador imagina cómo sería revivir la leyenda italiana con baterías
+
+Noticia original: https://www.carwow.es/alfa-romeo/noticias/7701/alfa-romeo-156-gta-electrico-render-2026-miguel-galante</itunes:summary>
+      <itunes:image href="https://jorgecasanova-stack.github.io/carwow-audio/images/noticia-7701.jpg"/>
+      <enclosure url="https://jorgecasanova-stack.github.io/carwow-audio/audio/noticia-7701_alvaro.mp3" length="1423533" type="audio/mpeg"/>
+      <guid isPermaLink="false">noticia-7701</guid>
+      <pubDate>Thu, 25 Jun 2026 08:00:00 +0000</pubDate>
+      <itunes:duration>88</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <link>https://www.carwow.es/alfa-romeo/noticias/7701/alfa-romeo-156-gta-electrico-render-2026-miguel-galante</link>
+    </item>
+    <item>
       <title>SUV español con 7 años de garantía</title>
       <description>Doble pantalla, etiqueta ECO o CERO y menos de 26.000 euros
 
